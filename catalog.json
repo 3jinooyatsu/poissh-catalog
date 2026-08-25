@@ -1,5 +1,5 @@
 {
-  "version": 9,
+  "version": 10,
   "presets": [
     {
       "id": "rakuten-pointclub",
@@ -392,7 +392,7 @@
     },
     {
       "id": "misdo-app",
-      "name": "ミスド(検証v9)",
+      "name": "ミスタードーナツ",
       "category": "store",
       "colorHex": "C9A227",
       "hostAppID": "jp.co.duskin.misdocardapps",
