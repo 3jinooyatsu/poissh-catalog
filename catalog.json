@@ -1,5 +1,5 @@
 {
-  "version": 11,
+  "version": 12,
   "presets": [
     {
       "id": "rakuten-pointclub",
@@ -144,15 +144,6 @@
       "colorHex": "BF1C2C",
       "hostAppID": "jp.co.rakuten.pay.shopper",
       "capabilities": [
-        {
-          "role": "point",
-          "systemTag": "rakuten",
-          "appStoreID": "1139755229",
-          "fallbackURL": "https://pay.rakuten.co.jp/",
-          "hint": "ポイントカードタブを提示",
-          "urlScheme": "rakutenpay://",
-          "generalPoint": true
-        },
         {
           "role": "payment",
           "systemTag": "rakuten-pay",
