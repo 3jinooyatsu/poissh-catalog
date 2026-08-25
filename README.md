@@ -22,5 +22,5 @@ URLスキーム・共通ポイントの対応・還元率は**他社の都合で
 ## 公開URL
 
 ```
-https://3jinooyatsu.github.io/poissh-catalog/catalog.json
+https://3jino-oyatsu.com/poissh-catalog/catalog.json
 ```
