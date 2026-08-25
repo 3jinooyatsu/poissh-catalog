@@ -1,9 +1,9 @@
 {
-  "version": 3,
+  "version": 4,
   "presets": [
     {
       "id": "rakuten-pointclub",
-      "name": "楽天ポイントクラブ",
+      "name": "楽天ポイントクラブ(配信v4)",
       "category": "point",
       "colorHex": "BF0000",
       "hostAppID": "jp.co.rakuten.point.pointclub",
