@@ -1,0 +1,1685 @@
+{
+  "version": 2,
+  "presets": [
+    {
+      "id": "rakuten-pointclub",
+      "name": "楽天ポイントクラブ",
+      "category": "point",
+      "colorHex": "BF0000",
+      "hostAppID": "jp.co.rakuten.point.pointclub",
+      "capabilities": [
+        {
+          "role": "point",
+          "systemTag": "rakuten",
+          "fallbackURL": "https://point.rakuten.co.jp/",
+          "hint": "ポイントカードを提示",
+          "appStoreID": "641501350",
+          "urlScheme": "pointclub://",
+          "generalPoint": true
+        }
+      ],
+      "appStoreID": "641501350",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7b/22/8e/7b228ec8-fff7-47e5-4046-3377298d3ef3/AppIconPrd-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "rakuten",
+        "らくてん",
+        "楽天",
+        "ポイントクラブ"
+      ]
+    },
+    {
+      "id": "d-pointclub",
+      "name": "dポイントクラブ",
+      "category": "point",
+      "colorHex": "CC0033",
+      "hostAppID": "com.nttdocomo.premierclub",
+      "capabilities": [
+        {
+          "role": "point",
+          "systemTag": "d",
+          "fallbackURL": "https://dpoint.docomo.ne.jp/",
+          "hint": "dポイントカードを提示",
+          "appStoreID": "821434357",
+          "urlScheme": "com.nttdocomo.dpoint.start://",
+          "generalPoint": true
+        }
+      ],
+      "appStoreID": "821434357",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/24/36/87/24368748-cff3-b66d-a5c8-ed4d1a0b7539/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "d",
+        "dpoint",
+        "ディーポイント",
+        "ドコモ",
+        "docomo"
+      ]
+    },
+    {
+      "id": "ponta",
+      "name": "Ponta",
+      "category": "point",
+      "colorHex": "FF7F27",
+      "hostAppID": "jp.ponta.myponta",
+      "capabilities": [
+        {
+          "role": "point",
+          "systemTag": "ponta",
+          "fallbackURL": "https://www.ponta.jp/",
+          "hint": "Pontaカードを提示",
+          "appStoreID": "1036066384",
+          "urlScheme": "jp.ponta.myponta://",
+          "generalPoint": true
+        }
+      ],
+      "appStoreID": "1036066384",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1e/cd/f7/1ecdf7a1-4a2c-af27-dc4f-1c32b978d47b/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "ponta",
+        "ぽんた",
+        "ローソン",
+        "lawson"
+      ]
+    },
+    {
+      "id": "vpoint",
+      "name": "Vポイントアプリ",
+      "category": "point",
+      "colorHex": "1E4FA3",
+      "hostAppID": "jp.co.ccc.TSITE",
+      "capabilities": [
+        {
+          "role": "point",
+          "systemTag": "v",
+          "fallbackURL": "https://vpoint.jp/",
+          "hint": "Vポイントカードを提示",
+          "appStoreID": "468976361",
+          "urlScheme": "tpointapp://",
+          "generalPoint": true
+        }
+      ],
+      "appStoreID": "468976361",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/b5/38/f3b5381e-a365-d46a-19a7-c24ee53c77eb/vpointapp_logo-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "v",
+        "vpoint",
+        "ブイポイント",
+        "Tポイント",
+        "tpoint"
+      ]
+    },
+    {
+      "id": "jre-point",
+      "name": "JRE POINT",
+      "category": "point",
+      "colorHex": "00A040",
+      "hostAppID": "jp.co.jreast.JrePoint",
+      "appStoreID": "1081293054",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/60/58/ed/6058ed63-940a-5537-d2ec-47cedadcd03b/AppIcon-0-0-1x_U007emarketing-0-6-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "jre",
+        "jrepoint",
+        "ジェイアール",
+        "駅ビル",
+        "アトレ",
+        "ルミネ",
+        "NewDays",
+        "suica"
+      ],
+      "capabilities": [
+        {
+          "role": "point",
+          "systemTag": "jre",
+          "appStoreID": "1081293054",
+          "fallbackURL": "https://www.jrepoint.jp/",
+          "hint": "バーコードを提示(駅ビル・NewDaysなど)",
+          "urlScheme": "jrepointapp://",
+          "generalPoint": true
+        }
+      ]
+    },
+    {
+      "id": "rakuten-pay",
+      "name": "楽天ペイ",
+      "category": "payment",
+      "colorHex": "BF1C2C",
+      "hostAppID": "jp.co.rakuten.pay.shopper",
+      "capabilities": [
+        {
+          "role": "point",
+          "systemTag": "rakuten",
+          "appStoreID": "1139755229",
+          "fallbackURL": "https://pay.rakuten.co.jp/",
+          "hint": "ポイントカードタブを提示",
+          "urlScheme": "rakutenpay://",
+          "generalPoint": true
+        },
+        {
+          "role": "payment",
+          "systemTag": "rakuten-pay",
+          "appStoreID": "1139755229",
+          "fallbackURL": "https://pay.rakuten.co.jp/",
+          "hint": "支払いコードを提示",
+          "urlScheme": "rakutenpay://"
+        }
+      ],
+      "appStoreID": "1139755229",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/41/6d/d8416d58-2701-9615-62e3-324b0326d546/Pay-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "rakuten",
+        "らくてん",
+        "楽天",
+        "rpay",
+        "rakutenpay"
+      ]
+    },
+    {
+      "id": "paypay",
+      "name": "PayPay",
+      "category": "payment",
+      "colorHex": "FF0033",
+      "hostAppID": "jp.pay2.app.ios",
+      "capabilities": [
+        {
+          "role": "payment",
+          "systemTag": "paypay",
+          "fallbackURL": "https://paypay.ne.jp/",
+          "hint": "支払いコードを提示",
+          "appStoreID": "1435783608",
+          "urlScheme": "paypay://"
+        }
+      ],
+      "appStoreID": "1435783608",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/d4/29/0dd4296f-94ce-c8ce-1d35-f6e27af130cc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "paypay",
+        "ぺいぺい",
+        "ペイペイ"
+      ]
+    },
+    {
+      "id": "d-barai",
+      "name": "d払い",
+      "category": "payment",
+      "colorHex": "E4002B",
+      "hostAppID": "jp.docomo.dbarai",
+      "capabilities": [
+        {
+          "role": "point",
+          "systemTag": "d",
+          "appStoreID": "1328132872",
+          "fallbackURL": "https://service.smt.docomo.ne.jp/keitai_payment/",
+          "hint": "dポイントカードを提示",
+          "urlScheme": "dpayment://",
+          "generalPoint": true
+        },
+        {
+          "role": "payment",
+          "systemTag": "d-barai",
+          "fallbackURL": "https://service.smt.docomo.ne.jp/keitai_payment/",
+          "hint": "支払いコードを提示",
+          "appStoreID": "1328132872",
+          "urlScheme": "dpayment://"
+        }
+      ],
+      "appStoreID": "1328132872",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ff/16/56/ff165655-05c4-2b05-8bfc-4eb1f4c69338/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "d",
+        "dbarai",
+        "ディー払い",
+        "ドコモ",
+        "docomo"
+      ]
+    },
+    {
+      "id": "aupay",
+      "name": "au PAY",
+      "category": "payment",
+      "colorHex": "EB5505",
+      "hostAppID": "com.kddi.auwalletapp",
+      "capabilities": [
+        {
+          "role": "point",
+          "systemTag": "ponta",
+          "appStoreID": "862800897",
+          "fallbackURL": "https://wallet.auone.jp/",
+          "hint": "Pontaカードを提示",
+          "urlScheme": null,
+          "generalPoint": true
+        },
+        {
+          "role": "payment",
+          "systemTag": "aupay",
+          "fallbackURL": "https://wallet.auone.jp/",
+          "hint": "支払いコードを提示",
+          "appStoreID": "862800897"
+        }
+      ],
+      "appStoreID": "862800897",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fd/4e/d2/fd4ed285-70d2-93f6-22c8-673b82c87ce4/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "au",
+        "aupay",
+        "エーユー",
+        "kddi"
+      ]
+    },
+    {
+      "id": "vpoint-pay",
+      "name": "VポイントPay",
+      "category": "payment",
+      "colorHex": "0A2C6E",
+      "hostAppID": "com.smbc-card.vpoint",
+      "capabilities": [
+        {
+          "role": "point",
+          "systemTag": "v",
+          "appStoreID": "1504833985",
+          "fallbackURL": "https://www.vpoint.jp/",
+          "hint": "モバイルVカードを提示",
+          "generalPoint": true
+        },
+        {
+          "role": "payment",
+          "systemTag": "vpoint-pay",
+          "appStoreID": "1504833985",
+          "fallbackURL": "https://www.vpoint.jp/",
+          "hint": "支払いコードを提示"
+        }
+      ],
+      "appStoreID": "1504833985",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6b/c7/97/6bc797ef-d606-be1d-7b6e-2c1f1e9dbb9f/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "vpoint",
+        "vポイント",
+        "ブイポイント",
+        "vpointpay",
+        "三井住友"
+      ]
+    },
+    {
+      "id": "aeon-pay",
+      "name": "AEON Pay",
+      "category": "payment",
+      "colorHex": "A50082",
+      "hostAppID": "jp.co.aeon.credit.ios.wallet",
+      "capabilities": [
+        {
+          "role": "point",
+          "systemTag": "waon",
+          "appStoreID": "1100564842",
+          "fallbackURL": "https://www.aeon.co.jp/",
+          "hint": "WAON POINTカードを提示",
+          "generalPoint": true
+        },
+        {
+          "role": "payment",
+          "systemTag": "aeon-pay",
+          "appStoreID": "1100564842",
+          "fallbackURL": "https://www.aeon.co.jp/",
+          "hint": "支払いコードを提示"
+        }
+      ],
+      "appStoreID": "1100564842",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4f/25/40/4f2540a9-4570-fc12-fa11-df5373e89171/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "aeon",
+        "aeonpay",
+        "イオン",
+        "いおん",
+        "イオンペイ",
+        "ワオン",
+        "waon",
+        "WAON POINT",
+        "イオンウォレット"
+      ]
+    },
+    {
+      "id": "merpay",
+      "name": "メルカリ",
+      "category": "payment",
+      "colorHex": "2891EB",
+      "hostAppID": "com.kouzoh.ios.mercari",
+      "capabilities": [
+        {
+          "role": "payment",
+          "systemTag": "merpay",
+          "fallbackURL": "https://www.merpay.com/",
+          "hint": "メルカリアプリの支払いタブ",
+          "appStoreID": "667861049"
+        }
+      ],
+      "appStoreID": "667861049",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/48/5e/d8/485ed869-2626-2d68-a8a4-8b61b4b0aee6/AppIcon-0-0-1x_U007epad-0-5-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "mercari",
+        "merpay",
+        "めるかり",
+        "メルペイ"
+      ]
+    },
+    {
+      "id": "famipay",
+      "name": "ファミペイ",
+      "category": "payment",
+      "colorHex": "00A040",
+      "hostAppID": "jp.family.famipay",
+      "capabilities": [
+        {
+          "role": "membership",
+          "fallbackURL": "https://famidigi.jp/",
+          "hint": "会員バーコードを提示",
+          "appStoreID": "1138196572"
+        },
+        {
+          "role": "payment",
+          "systemTag": "famipay",
+          "fallbackURL": "https://famidigi.jp/",
+          "hint": "FamiPayバーコードで支払い",
+          "appStoreID": "1138196572"
+        }
+      ],
+      "appStoreID": "1138196572",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/aa/04/3e/aa043e7f-1d39-a955-964d-8735ec2ba69d/AppIcon_Release-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "famipay",
+        "familymart",
+        "ファミマ",
+        "ファミリーマート",
+        "famima",
+        "ふぁみま"
+      ]
+    },
+    {
+      "id": "misdo-app",
+      "name": "ミスタードーナツ",
+      "category": "store",
+      "colorHex": "C9A227",
+      "hostAppID": "jp.co.duskin.misdocardapps",
+      "capabilities": [
+        {
+          "role": "membership",
+          "appStoreID": "955641819",
+          "fallbackURL": "https://www.misterdonut.jp/",
+          "hint": "スタンプは334円以上 / 1日1回",
+          "urlScheme": "jp.co.duskin.misdocardapps.dev://"
+        }
+      ],
+      "appStoreID": "955641819",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/40/32/be403231-1363-5911-ee40-abc8a51bd4a9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "misdo",
+        "ミスド",
+        "みすど",
+        "misterdonut",
+        "ドーナツ"
+      ]
+    },
+    {
+      "id": "seven-eleven",
+      "name": "セブン‐イレブンアプリ",
+      "category": "store",
+      "colorHex": "00733E",
+      "hostAppID": "jp.co.sej.omniapp",
+      "capabilities": [
+        {
+          "role": "membership",
+          "fallbackURL": "https://www.sej.co.jp/",
+          "hint": "会員コードを提示",
+          "appStoreID": "1039171609",
+          "urlScheme": "sejapp://"
+        }
+      ],
+      "appStoreID": "1039171609",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/98/7c/7b/987c7bff-60f3-7c69-2f08-2fda4e5849c2/AppIcon-0-0-1x_U007ephone-0-4-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "seven",
+        "711",
+        "7-11",
+        "セブン",
+        "セブンイレブン",
+        "sej"
+      ]
+    },
+    {
+      "id": "lawson",
+      "name": "ローソン",
+      "category": "store",
+      "colorHex": "0068B7",
+      "hostAppID": "jp.co.lawson.iphone.LAWSON",
+      "capabilities": [
+        {
+          "role": "point",
+          "systemTag": "ponta",
+          "appStoreID": "515191813",
+          "fallbackURL": "https://www.lawson.co.jp/",
+          "hint": "Pontaカードのバーコードを提示",
+          "urlScheme": "lawson://",
+          "generalPoint": false
+        },
+        {
+          "role": "point",
+          "systemTag": "d",
+          "appStoreID": "515191813",
+          "fallbackURL": "https://www.lawson.co.jp/",
+          "hint": "dポイントカードのバーコードを提示",
+          "urlScheme": "lawson://",
+          "generalPoint": false
+        }
+      ],
+      "appStoreID": "515191813",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/96/9a/9b/969a9bd2-01bc-ca2d-45a3-63c03092c824/LawsonAppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "lawson",
+        "ローソン",
+        "ろーそん"
+      ]
+    },
+    {
+      "id": "mcdonalds",
+      "name": "マクドナルド",
+      "category": "store",
+      "colorHex": "DA291C",
+      "hostAppID": "jp.mcdonalds.coupon",
+      "capabilities": [
+        {
+          "role": "membership",
+          "fallbackURL": "https://www.mcdonalds.co.jp/",
+          "hint": "クーポン・モバイルオーダー",
+          "appStoreID": "413618155",
+          "urlScheme": "mcdonaldsjp://"
+        }
+      ],
+      "appStoreID": "413618155",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/99/5d/8f/995d8f3b-3404-ba8c-f951-407cc0770376/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "mcdonalds",
+        "マック",
+        "マクド",
+        "マクドナルド",
+        "mac"
+      ]
+    },
+    {
+      "id": "mos",
+      "name": "モスバーガー",
+      "category": "store",
+      "colorHex": "C41E2F",
+      "hostAppID": "jp.mos.app",
+      "capabilities": [
+        {
+          "role": "membership",
+          "fallbackURL": "https://www.mos.jp/",
+          "appStoreID": "390411817"
+        }
+      ],
+      "appStoreID": "390411817",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e5/ac/16/e5ac1679-6be6-a6f0-8bb0-24ccee0d7a90/AppIcon-prod-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "mos",
+        "モス",
+        "もす",
+        "モスバーガー"
+      ]
+    },
+    {
+      "id": "kfc",
+      "name": "ケンタッキーフライドチキン",
+      "category": "store",
+      "colorHex": "A6192E",
+      "hostAppID": "kfc.app.diorama",
+      "capabilities": [
+        {
+          "role": "membership",
+          "fallbackURL": "https://www.kfc.co.jp/",
+          "appStoreID": "519131315",
+          "urlScheme": "kfc://"
+        }
+      ],
+      "appStoreID": "519131315",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1e/8d/e5/1e8de51f-abc3-7b3f-9d15-8b51526df0d6/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "kfc",
+        "ケンタ",
+        "ケンタッキー",
+        "kentucky"
+      ]
+    },
+    {
+      "id": "sukiya",
+      "name": "すき家",
+      "category": "store",
+      "colorHex": "E60012",
+      "hostAppID": "jp.sukiya.moap",
+      "capabilities": [
+        {
+          "role": "membership",
+          "fallbackURL": "https://www.sukiya.jp/",
+          "appStoreID": "1452441389",
+          "urlScheme": "moap://"
+        }
+      ],
+      "appStoreID": "1452441389",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/7b/b3/d77bb3b2-cefe-b45a-06e2-d01c52790e9a/AppIcon-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "sukiya",
+        "すきや",
+        "すき家"
+      ]
+    },
+    {
+      "id": "yoshinoya",
+      "name": "吉野家",
+      "category": "store",
+      "colorHex": "F39800",
+      "hostAppID": "com.yoshinoya.ios.yoshinoya-official",
+      "capabilities": [
+        {
+          "role": "membership",
+          "fallbackURL": "https://www.yoshinoya.com/",
+          "appStoreID": "1131084339",
+          "urlScheme": "prd-crm-app-uiwebview://"
+        }
+      ],
+      "appStoreID": "1131084339",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/43/12/3e/43123ebd-bbfe-fa1f-a4f8-25120f332245/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "yoshinoya",
+        "よしのや",
+        "吉野家"
+      ]
+    },
+    {
+      "id": "matsuya",
+      "name": "松屋フーズ",
+      "category": "store",
+      "colorHex": "003893",
+      "hostAppID": "jp.co.matsuyafoods.officialapp",
+      "capabilities": [
+        {
+          "role": "membership",
+          "fallbackURL": "https://www.matsuyafoods.co.jp/",
+          "appStoreID": "662011115",
+          "urlScheme": "matsuya://"
+        }
+      ],
+      "appStoreID": "662011115",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6b/62/34/6b62343d-7f6d-7d42-215f-c5eaadd6a227/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "matsuya",
+        "まつや",
+        "松屋"
+      ]
+    },
+    {
+      "id": "starbucks",
+      "name": "スターバックス",
+      "category": "store",
+      "colorHex": "00704A",
+      "hostAppID": "com.starbucks.jp",
+      "capabilities": [
+        {
+          "role": "payment",
+          "systemTag": "starbucks",
+          "fallbackURL": "https://www.starbucks.co.jp/",
+          "hint": "会員QRコードで支払い",
+          "appStoreID": "1113037275",
+          "urlScheme": "starbucksjapan://"
+        }
+      ],
+      "appStoreID": "1113037275",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/d0/1b/06d01b9b-7b09-c7b2-0be0-40f58ce553f5/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "starbucks",
+        "スタバ",
+        "すたば",
+        "スターバックス"
+      ]
+    },
+    {
+      "id": "doutor",
+      "name": "ドトール バリューカード",
+      "category": "store",
+      "colorHex": "FFD400",
+      "hostAppID": "jp.doutor.app",
+      "capabilities": [
+        {
+          "role": "membership",
+          "fallbackURL": "https://www.doutor.co.jp/",
+          "appStoreID": "1445398358"
+        }
+      ],
+      "appStoreID": "1445398358",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a6/12/b8/a612b8a9-8b7f-81a1-11e3-425fb79b8298/AppIcon-0-0-1x_U007emarketing-0-9-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "doutor",
+        "ドトール",
+        "どとーる",
+        "dvc"
+      ]
+    },
+    {
+      "id": "tullys",
+      "name": "タリーズコーヒー",
+      "category": "store",
+      "colorHex": "004E36",
+      "hostAppID": "jp.tullys.app",
+      "capabilities": [
+        {
+          "role": "membership",
+          "fallbackURL": "https://www.tullys.co.jp/",
+          "appStoreID": "1517333828"
+        }
+      ],
+      "appStoreID": "1517333828",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/93/43/78/93437880-b75d-afb4-e70b-87a34c2925e5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "tullys",
+        "タリーズ",
+        "たりーず"
+      ]
+    },
+    {
+      "id": "komeda",
+      "name": "コメダ珈琲店",
+      "category": "store",
+      "colorHex": "8B0000",
+      "hostAppID": "jp.komeda.app",
+      "capabilities": [
+        {
+          "role": "membership",
+          "fallbackURL": "https://www.komeda.co.jp/",
+          "appStoreID": "1667214457"
+        }
+      ],
+      "appStoreID": "1667214457",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/79/1a/63791abc-5218-ed31-fa1d-0eb5609a483a/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "komeda",
+        "コメダ",
+        "こめだ",
+        "komeca"
+      ]
+    },
+    {
+      "id": "matsukiyo",
+      "name": "マツキヨココカラ",
+      "category": "store",
+      "colorHex": "FFDD00",
+      "hostAppID": "jp.matsukiyococokara.app",
+      "capabilities": [
+        {
+          "role": "membership",
+          "fallbackURL": "https://www.matsukiyococokara-online.com/",
+          "hint": "会員バーコードを提示",
+          "appStoreID": "6451037644"
+        }
+      ],
+      "appStoreID": "6451037644",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d9/c1/1e/d9c11e8a-b417-685f-466b-4b094cd8a58b/AppIcon-production-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "matsukiyo",
+        "マツキヨ",
+        "まつきよ",
+        "マツモトキヨシ",
+        "ココカラ",
+        "ココカラファイン"
+      ]
+    },
+    {
+      "id": "welcia",
+      "name": "ウエルシアグループ",
+      "category": "store",
+      "colorHex": "00A0E9",
+      "hostAppID": "jp.welcia.app",
+      "capabilities": [
+        {
+          "role": "point",
+          "systemTag": "waon",
+          "appStoreID": "1095620617",
+          "fallbackURL": "https://www.welcia-yakkyoku.co.jp/",
+          "hint": "WAON POINTのバーコードを提示",
+          "generalPoint": false
+        },
+        {
+          "role": "point",
+          "systemTag": "v",
+          "appStoreID": "1095620617",
+          "fallbackURL": "https://www.welcia-yakkyoku.co.jp/",
+          "hint": "Vポイントのバーコードを提示",
+          "generalPoint": false
+        }
+      ],
+      "appStoreID": "1095620617",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/80/f9/19/80f91938-37fc-925b-a83d-2648bcb12a3a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "welcia",
+        "ウエルシア",
+        "うえるしあ",
+        "ハックドラッグ"
+      ]
+    },
+    {
+      "id": "sugi",
+      "name": "スギ薬局",
+      "category": "store",
+      "colorHex": "E60027",
+      "hostAppID": "jp.sugi.app",
+      "capabilities": [
+        {
+          "role": "membership",
+          "fallbackURL": "https://www.sugi-net.jp/",
+          "appStoreID": "853001943"
+        }
+      ],
+      "appStoreID": "853001943",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/27/04/0e/27040e02-58e4-f5eb-383a-17fcf1a27e4c/AppIcon-prd-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "sugi",
+        "スギ",
+        "すぎ",
+        "スギ薬局"
+      ]
+    },
+    {
+      "id": "tsuruha",
+      "name": "ツルハドラッグ",
+      "category": "store",
+      "colorHex": "00479D",
+      "hostAppID": "jp.tsuruha.app",
+      "capabilities": [
+        {
+          "role": "membership",
+          "fallbackURL": "https://www.tsuruha.co.jp/",
+          "appStoreID": "1483880235"
+        }
+      ],
+      "appStoreID": "1483880235",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f6/da/72/f6da7260-9050-5393-645d-2bb99f54f320/AppIcon-0-0-1x_U007emarketing-0-9-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "tsuruha",
+        "ツルハ",
+        "つるは",
+        "福太郎"
+      ]
+    },
+    {
+      "id": "iaeon",
+      "name": "iAEON",
+      "category": "store",
+      "colorHex": "A50082",
+      "hostAppID": "jp.co.aeonst.app.myaeon",
+      "capabilities": [
+        {
+          "role": "membership",
+          "fallbackURL": "https://www.aeon.co.jp/",
+          "hint": "会員コードを提示",
+          "appStoreID": "1565489157",
+          "urlScheme": "jp.co.aeonst.app.myaeon://"
+        },
+        {
+          "role": "point",
+          "systemTag": "waon",
+          "appStoreID": "1565489157",
+          "fallbackURL": "https://www.aeon.co.jp/",
+          "hint": "WAON POINTカードを提示",
+          "urlScheme": "jp.co.aeonst.app.myaeon://",
+          "generalPoint": true
+        }
+      ],
+      "appStoreID": "1565489157",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2a/d1/53/2ad153c1-26ae-3989-d146-4c525ea9806e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "aeon",
+        "イオン",
+        "いおん",
+        "iaeon",
+        "マックスバリュ",
+        "waon",
+        "ワオン",
+        "WAON POINT"
+      ]
+    },
+    {
+      "id": "itoyokado",
+      "name": "イトーヨーカドー",
+      "category": "store",
+      "colorHex": "E60012",
+      "hostAppID": "jp.itoyokado.app",
+      "capabilities": [
+        {
+          "role": "membership",
+          "fallbackURL": "https://www.itoyokado.co.jp/",
+          "appStoreID": "490936137"
+        }
+      ],
+      "appStoreID": "490936137",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fb/41/db/fb41db9e-e089-b73c-763a-1f55fbb6d239/AppIcon-prod-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "itoyokado",
+        "ヨーカドー",
+        "イトーヨーカドー",
+        "york"
+      ]
+    },
+    {
+      "id": "biccamera",
+      "name": "ビックカメラ",
+      "category": "store",
+      "colorHex": "E50012",
+      "hostAppID": "com.biccamera.ios.mobile.BicCamera",
+      "capabilities": [
+        {
+          "role": "membership",
+          "fallbackURL": "https://www.biccamera.com/",
+          "hint": "ポイントカードを提示",
+          "appStoreID": "518593576",
+          "universalLink": "https://snap.app.biccamera.com/app/"
+        }
+      ],
+      "appStoreID": "518593576",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/93/b9/c0/93b9c0d5-24dd-1881-2e1c-0d67c6c46a81/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "biccamera",
+        "ビック",
+        "ビックカメラ",
+        "bic"
+      ]
+    },
+    {
+      "id": "yodobashi",
+      "name": "ゴールドポイントカード",
+      "category": "store",
+      "colorHex": "1D2088",
+      "hostAppID": "com.yodobashi.iGPCApp",
+      "capabilities": [
+        {
+          "role": "membership",
+          "fallbackURL": "https://www.yodobashi.com/",
+          "hint": "ポイントカードを提示",
+          "appStoreID": "531033552"
+        }
+      ],
+      "appStoreID": "531033552",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/82/5f/8f825fd5-cf2b-1001-d75a-0de9d85c2386/AppIconRelease-0-0-1x_U007emarketing-0-5-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "yodobashi",
+        "ヨドバシ",
+        "よどばし",
+        "ゴールドポイント"
+      ]
+    },
+    {
+      "id": "yamada",
+      "name": "ヤマダデジタル会員",
+      "category": "store",
+      "colorHex": "FF6600",
+      "hostAppID": "jp.co.unisys.yamadamobile",
+      "capabilities": [
+        {
+          "role": "membership",
+          "fallbackURL": "https://www.yamada-denki.jp/",
+          "appStoreID": "364504659"
+        }
+      ],
+      "appStoreID": "364504659",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/28/d8/2e/28d82e0f-d02a-4e82-c92f-f791a9d039c0/AppIcon-0-0-1x_U007ephone-0-7-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "yamada",
+        "ヤマダ",
+        "やまだ",
+        "ヤマダデンキ"
+      ]
+    },
+    {
+      "id": "uniqlo",
+      "name": "UNIQLO",
+      "category": "store",
+      "colorHex": "FF0000",
+      "hostAppID": "com.uniqlo.catalogue",
+      "capabilities": [
+        {
+          "role": "membership",
+          "fallbackURL": "https://www.uniqlo.com/jp/",
+          "hint": "会員証バーコードを提示",
+          "appStoreID": "460989014",
+          "urlScheme": "uniqloapp://"
+        }
+      ],
+      "appStoreID": "460989014",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b4/81/ee/b481ee25-9339-cdbb-3b20-f153af2088f5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "uniqlo",
+        "ユニクロ",
+        "ゆにくろ"
+      ]
+    },
+    {
+      "id": "gu",
+      "name": "ジーユー",
+      "category": "store",
+      "colorHex": "0A50A1",
+      "hostAppID": "com.gu.jp",
+      "capabilities": [
+        {
+          "role": "membership",
+          "fallbackURL": "https://www.gu-global.com/jp/",
+          "appStoreID": "504542019"
+        }
+      ],
+      "appStoreID": "504542019",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/38/85/e0/3885e0a9-f7aa-b0ad-0061-73257e00a0a9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "gu",
+        "ジーユー",
+        "じーゆー"
+      ]
+    },
+    {
+      "id": "muji",
+      "name": "MUJIアプリ",
+      "category": "store",
+      "colorHex": "7F0019",
+      "hostAppID": "com.muji.passport",
+      "capabilities": [
+        {
+          "role": "membership",
+          "fallbackURL": "https://www.muji.com/jp/",
+          "hint": "MUJI passportを提示",
+          "appStoreID": "631993791",
+          "urlScheme": "mujipassport://"
+        }
+      ],
+      "appStoreID": "631993791",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e7/73/a9/e773a9c5-fc3d-956c-964d-dc59fad888a7/muji-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "muji",
+        "無印",
+        "無印良品",
+        "むじるし"
+      ]
+    },
+    {
+      "id": "shimamura",
+      "name": "しまむらパーク",
+      "category": "store",
+      "colorHex": "E83828",
+      "hostAppID": "jp.shimamura.app",
+      "capabilities": [
+        {
+          "role": "membership",
+          "fallbackURL": "https://www.shimamura.gr.jp/",
+          "appStoreID": "732775964"
+        }
+      ],
+      "appStoreID": "732775964",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/7b/57/417b5762-7da0-9781-b23e-6f45dbc5ab76/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "shimamura",
+        "しまむら",
+        "シマムラ"
+      ]
+    },
+    {
+      "id": "daiso",
+      "name": "DAISOアプリ",
+      "category": "store",
+      "colorHex": "D5006D",
+      "hostAppID": "jp.daiso.app",
+      "capabilities": [
+        {
+          "role": "membership",
+          "fallbackURL": "https://www.daiso-sangyo.co.jp/",
+          "appStoreID": "6466987025"
+        }
+      ],
+      "appStoreID": "6466987025",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/88/9c/06889c8c-a6be-6b64-5841-69c3dbe61c39/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "daiso",
+        "ダイソー",
+        "だいそー",
+        "100均"
+      ]
+    },
+    {
+      "id": "skylark",
+      "name": "すかいらーく",
+      "category": "store",
+      "colorHex": "E60012",
+      "hostAppID": "jp.co.skylark.app.gusto",
+      "capabilities": [
+        {
+          "role": "membership",
+          "fallbackURL": "https://www.skylark.co.jp/",
+          "hint": "ガスト・バーミヤン等で利用",
+          "appStoreID": "906930478",
+          "urlScheme": "sklgusto://"
+        }
+      ],
+      "appStoreID": "906930478",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1f/ad/43/1fad4376-1029-e210-3390-7a5edbb2ca9c/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "skylark",
+        "すかいらーく",
+        "ガスト",
+        "gusto",
+        "バーミヤン",
+        "ジョナサン",
+        "しゃぶ葉"
+      ]
+    },
+    {
+      "id": "marugame",
+      "name": "丸亀製麺",
+      "category": "store",
+      "colorHex": "8F2E14",
+      "hostAppID": "jp.marugame.app",
+      "capabilities": [
+        {
+          "role": "membership",
+          "fallbackURL": "https://www.marugame-seimen.com/",
+          "appStoreID": "587248280"
+        }
+      ],
+      "appStoreID": "587248280",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/27/c1/f2/27c1f2cf-5632-d6cf-80cc-4092ef8db87a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "marugame",
+        "丸亀",
+        "まるがめ",
+        "丸亀製麺"
+      ]
+    },
+    {
+      "id": "sushiro",
+      "name": "スシロー",
+      "category": "store",
+      "colorHex": "004098",
+      "hostAppID": "jp.co.akindo-sushiro.ay.sushiroApp",
+      "capabilities": [
+        {
+          "role": "membership",
+          "fallbackURL": "https://www.akindo-sushiro.co.jp/",
+          "hint": "受付・順番待ちにも使える",
+          "appStoreID": "551682016",
+          "urlScheme": "sushiroapp://"
+        }
+      ],
+      "appStoreID": "551682016",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/36/2a/69/362a699b-a970-2f4c-a578-6d523064a1ad/AppIcon-PRD-JP-0-0-1x_U007emarketing-0-6-0-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "sushiro",
+        "スシロー",
+        "すしろー"
+      ]
+    },
+    {
+      "id": "kurasushi",
+      "name": "くら寿司",
+      "category": "store",
+      "colorHex": "00418E",
+      "hostAppID": "jp.kurasushi.app",
+      "capabilities": [
+        {
+          "role": "membership",
+          "fallbackURL": "https://www.kurasushi.co.jp/",
+          "appStoreID": "942355925"
+        }
+      ],
+      "appStoreID": "942355925",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fa/12/ed/fa12edb5-2daf-002a-ac08-b5bc630e4cfe/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "kurasushi",
+        "くら寿司",
+        "くらずし",
+        "クラ寿司"
+      ]
+    },
+    {
+      "id": "hamasushi",
+      "name": "はま寿司",
+      "category": "store",
+      "colorHex": "C8161D",
+      "hostAppID": "com.hamazushi.hamanavi",
+      "capabilities": [
+        {
+          "role": "membership",
+          "fallbackURL": "https://www.hama-sushi.co.jp/",
+          "appStoreID": "1523009390",
+          "urlScheme": "hamazushi://"
+        }
+      ],
+      "appStoreID": "1523009390",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b9/53/cd/b953cd6e-7f95-f71f-b48c-b69c12dfdf06/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "hamasushi",
+        "はま寿司",
+        "はまずし"
+      ]
+    },
+    {
+      "id": "nitori",
+      "name": "ニトリ",
+      "category": "store",
+      "colorHex": "00A73C",
+      "hostAppID": "jp.nitori.app",
+      "capabilities": [
+        {
+          "role": "membership",
+          "fallbackURL": "https://www.nitori.co.jp/",
+          "hint": "会員証バーコードを提示",
+          "appStoreID": "814928018"
+        }
+      ],
+      "appStoreID": "814928018",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/02/8f/16/028f16f9-f0bc-5904-aa76-92f90e297007/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "nitori",
+        "ニトリ",
+        "にとり"
+      ]
+    },
+    {
+      "id": "cainz",
+      "name": "カインズ",
+      "category": "store",
+      "colorHex": "00984B",
+      "hostAppID": "jp.cainz.app",
+      "capabilities": [
+        {
+          "role": "membership",
+          "fallbackURL": "https://www.cainz.com/",
+          "appStoreID": "966865570"
+        }
+      ],
+      "appStoreID": "966865570",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c0/31/04/c03104a6-66a0-2eae-5fdf-338a4de18115/AppIcon-0-0-1x_U007epad-0-11-0-P3-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "cainz",
+        "カインズ",
+        "かいんず"
+      ]
+    }
+  ],
+  "storeTemplates": [
+    {
+      "id": "misterdonut",
+      "chainName": "ミスタードーナツ",
+      "aliases": [
+        "ミスド",
+        "misdo",
+        "みすど"
+      ],
+      "acceptedPointSystems": [
+        "rakuten",
+        "d"
+      ],
+      "pointsExclusive": true,
+      "payments": [
+        "rakuten-pay",
+        "d-barai",
+        "paypay",
+        "aupay",
+        "merpay"
+      ],
+      "constraintNote": "ポイント提示は支払いの前に",
+      "bestCombos": [
+        {
+          "pointSystem": "rakuten",
+          "paymentSystem": "rakuten-pay",
+          "hops": 2,
+          "rate": 2.5,
+          "note": "楽天カードチャージの楽天ペイなら計2.5%還元"
+        },
+        {
+          "pointSystem": "d",
+          "paymentSystem": "d-barai",
+          "hops": 2
+        }
+      ],
+      "storeAppPresetIDs": [
+        "misdo-app"
+      ]
+    },
+    {
+      "id": "lawson",
+      "chainName": "ローソン",
+      "aliases": [
+        "lawson",
+        "ろーそん",
+        "ローソンストア100"
+      ],
+      "acceptedPointSystems": [
+        "ponta",
+        "d"
+      ],
+      "pointsExclusive": true,
+      "payments": [
+        "rakuten-pay",
+        "d-barai",
+        "paypay",
+        "aupay",
+        "merpay"
+      ],
+      "constraintNote": "ポイント提示は支払いの前に。Pontaとdポイントはどちらか1つだけ貯まります",
+      "bestCombos": [
+        {
+          "pointSystem": "d",
+          "paymentSystem": "d-barai",
+          "hops": 2
+        },
+        {
+          "pointSystem": "ponta",
+          "paymentSystem": "aupay",
+          "hops": 2
+        }
+      ],
+      "storeAppPresetIDs": [
+        "lawson"
+      ]
+    },
+    {
+      "id": "familymart",
+      "chainName": "ファミリーマート",
+      "aliases": [
+        "ファミマ",
+        "familymart",
+        "famima",
+        "ふぁみま"
+      ],
+      "acceptedPointSystems": [
+        "rakuten",
+        "d",
+        "v"
+      ],
+      "pointsExclusive": true,
+      "payments": [
+        "famipay",
+        "rakuten-pay",
+        "d-barai",
+        "paypay",
+        "aupay",
+        "merpay"
+      ],
+      "constraintNote": "ポイント提示は支払いの前に。楽天・d・Vはどれか1つだけ貯まります(Vはアプリ提示のみ)",
+      "bestCombos": [
+        {
+          "pointSystem": "rakuten",
+          "paymentSystem": "rakuten-pay",
+          "hops": 2
+        },
+        {
+          "pointSystem": "d",
+          "paymentSystem": "d-barai",
+          "hops": 2
+        }
+      ],
+      "storeAppPresetIDs": [
+        "famipay"
+      ]
+    },
+    {
+      "id": "seven-eleven",
+      "chainName": "セブン-イレブン",
+      "aliases": [
+        "セブン",
+        "セブンイレブン",
+        "seven",
+        "711",
+        "7-11"
+      ],
+      "acceptedPointSystems": [
+        "d"
+      ],
+      "pointsExclusive": false,
+      "payments": [
+        "rakuten-pay",
+        "d-barai",
+        "paypay",
+        "aupay",
+        "merpay"
+      ],
+      "constraintNote": "ポイント提示は支払いの前に。提示で貯まる共通ポイントはdポイントのみです",
+      "bestCombos": [
+        {
+          "pointSystem": "d",
+          "paymentSystem": "d-barai",
+          "hops": 2
+        }
+      ],
+      "storeAppPresetIDs": [
+        "seven-eleven"
+      ]
+    },
+    {
+      "id": "sukiya",
+      "chainName": "すき家",
+      "aliases": [
+        "sukiya",
+        "すきや"
+      ],
+      "acceptedPointSystems": [
+        "ponta",
+        "v",
+        "rakuten",
+        "d"
+      ],
+      "pointsExclusive": true,
+      "payments": [
+        "rakuten-pay",
+        "d-barai",
+        "paypay",
+        "aupay",
+        "merpay"
+      ],
+      "constraintNote": "ポイント提示は支払いの前に。4種類のうちどれか1つだけ貯まります",
+      "bestCombos": [
+        {
+          "pointSystem": "rakuten",
+          "paymentSystem": "rakuten-pay",
+          "hops": 2
+        },
+        {
+          "pointSystem": "d",
+          "paymentSystem": "d-barai",
+          "hops": 2
+        }
+      ],
+      "storeAppPresetIDs": [
+        "sukiya"
+      ]
+    },
+    {
+      "id": "yoshinoya",
+      "chainName": "吉野家",
+      "aliases": [
+        "yoshinoya",
+        "よしのや"
+      ],
+      "acceptedPointSystems": [
+        "rakuten",
+        "v"
+      ],
+      "pointsExclusive": true,
+      "payments": [
+        "rakuten-pay",
+        "d-barai",
+        "paypay",
+        "aupay",
+        "merpay"
+      ],
+      "constraintNote": "ポイント提示は支払いの前に。楽天とVはどちらか1つだけ貯まります",
+      "bestCombos": [
+        {
+          "pointSystem": "rakuten",
+          "paymentSystem": "rakuten-pay",
+          "hops": 2
+        }
+      ],
+      "storeAppPresetIDs": [
+        "yoshinoya"
+      ]
+    },
+    {
+      "id": "matsuya",
+      "chainName": "松屋",
+      "aliases": [
+        "matsuya",
+        "まつや",
+        "松屋フーズ"
+      ],
+      "acceptedPointSystems": [
+        "rakuten",
+        "d"
+      ],
+      "pointsExclusive": true,
+      "payments": [
+        "rakuten-pay",
+        "d-barai",
+        "paypay",
+        "aupay",
+        "merpay"
+      ],
+      "constraintNote": "ポイント提示は支払いの前に",
+      "bestCombos": [
+        {
+          "pointSystem": "rakuten",
+          "paymentSystem": "rakuten-pay",
+          "hops": 2
+        },
+        {
+          "pointSystem": "d",
+          "paymentSystem": "d-barai",
+          "hops": 2
+        }
+      ],
+      "storeAppPresetIDs": [
+        "matsuya"
+      ]
+    },
+    {
+      "id": "skylark",
+      "chainName": "すかいらーく",
+      "aliases": [
+        "ガスト",
+        "gusto",
+        "バーミヤン",
+        "ジョナサン",
+        "しゃぶ葉",
+        "skylark"
+      ],
+      "acceptedPointSystems": [
+        "rakuten",
+        "v",
+        "d"
+      ],
+      "pointsExclusive": true,
+      "payments": [
+        "rakuten-pay",
+        "d-barai",
+        "paypay",
+        "aupay",
+        "merpay"
+      ],
+      "constraintNote": "ポイント提示は支払いの前に。すかいらーくポイントと共通ポイントは二重取りできます",
+      "bestCombos": [
+        {
+          "pointSystem": "rakuten",
+          "paymentSystem": "rakuten-pay",
+          "hops": 2
+        },
+        {
+          "pointSystem": "d",
+          "paymentSystem": "d-barai",
+          "hops": 2
+        }
+      ],
+      "storeAppPresetIDs": [
+        "skylark"
+      ]
+    },
+    {
+      "id": "kurasushi",
+      "chainName": "くら寿司",
+      "aliases": [
+        "kurasushi",
+        "くらずし",
+        "無添くら寿司"
+      ],
+      "acceptedPointSystems": [
+        "rakuten"
+      ],
+      "pointsExclusive": false,
+      "payments": [
+        "rakuten-pay",
+        "d-barai",
+        "paypay",
+        "aupay",
+        "merpay"
+      ],
+      "constraintNote": "ポイント提示は支払いの前に",
+      "bestCombos": [
+        {
+          "pointSystem": "rakuten",
+          "paymentSystem": "rakuten-pay",
+          "hops": 2
+        }
+      ],
+      "storeAppPresetIDs": [
+        "kurasushi"
+      ]
+    },
+    {
+      "id": "kfc",
+      "chainName": "ケンタッキーフライドチキン",
+      "aliases": [
+        "ケンタッキー",
+        "ケンタ",
+        "kfc"
+      ],
+      "acceptedPointSystems": [
+        "rakuten"
+      ],
+      "pointsExclusive": false,
+      "payments": [
+        "rakuten-pay",
+        "d-barai",
+        "paypay",
+        "aupay",
+        "merpay"
+      ],
+      "constraintNote": "ポイント提示は支払いの前に",
+      "bestCombos": [
+        {
+          "pointSystem": "rakuten",
+          "paymentSystem": "rakuten-pay",
+          "hops": 2
+        }
+      ],
+      "storeAppPresetIDs": [
+        "kfc"
+      ]
+    },
+    {
+      "id": "mos",
+      "chainName": "モスバーガー",
+      "aliases": [
+        "モス",
+        "mos",
+        "もすばーがー"
+      ],
+      "acceptedPointSystems": [
+        "d"
+      ],
+      "pointsExclusive": false,
+      "payments": [
+        "rakuten-pay",
+        "d-barai",
+        "paypay",
+        "aupay",
+        "merpay"
+      ],
+      "constraintNote": "ポイント提示は支払いの前に",
+      "bestCombos": [
+        {
+          "pointSystem": "d",
+          "paymentSystem": "d-barai",
+          "hops": 2
+        }
+      ],
+      "storeAppPresetIDs": [
+        "mos"
+      ]
+    },
+    {
+      "id": "matsukiyo",
+      "chainName": "マツキヨココカラ",
+      "aliases": [
+        "マツキヨ",
+        "マツモトキヨシ",
+        "ココカラファイン",
+        "matsukiyo"
+      ],
+      "acceptedPointSystems": [
+        "d"
+      ],
+      "pointsExclusive": false,
+      "payments": [
+        "rakuten-pay",
+        "d-barai",
+        "paypay",
+        "aupay",
+        "merpay"
+      ],
+      "constraintNote": "ポイント提示は支払いの前に。マツキヨポイントとdポイントは両取りできます",
+      "bestCombos": [
+        {
+          "pointSystem": "d",
+          "paymentSystem": "d-barai",
+          "hops": 2
+        }
+      ],
+      "storeAppPresetIDs": [
+        "matsukiyo"
+      ]
+    },
+    {
+      "id": "tsuruha",
+      "chainName": "ツルハドラッグ",
+      "aliases": [
+        "ツルハ",
+        "tsuruha",
+        "くすりの福太郎"
+      ],
+      "acceptedPointSystems": [
+        "rakuten"
+      ],
+      "pointsExclusive": false,
+      "payments": [
+        "rakuten-pay",
+        "d-barai",
+        "paypay",
+        "aupay"
+      ],
+      "constraintNote": "ポイント提示は支払いの前に。ツルハポイントと楽天ポイントは両取りできます",
+      "bestCombos": [
+        {
+          "pointSystem": "rakuten",
+          "paymentSystem": "rakuten-pay",
+          "hops": 2
+        }
+      ],
+      "storeAppPresetIDs": [
+        "tsuruha"
+      ]
+    },
+    {
+      "id": "welcia",
+      "chainName": "ウエルシア",
+      "aliases": [
+        "welcia",
+        "ウエルシア薬局",
+        "ハックドラッグ"
+      ],
+      "acceptedPointSystems": [
+        "waon",
+        "v"
+      ],
+      "pointsExclusive": false,
+      "payments": [
+        "rakuten-pay",
+        "d-barai",
+        "paypay",
+        "aupay",
+        "merpay"
+      ],
+      "constraintNote": "ポイント提示は支払いの前に。ウエルシアメンバーならWAON POINTとVポイントを1画面で同時に提示できます。毎月20日の感謝デーはWAON POINTでの支払いが1.5倍分に(ウエル活)",
+      "bestCombos": [],
+      "storeAppPresetIDs": [
+        "welcia"
+      ]
+    }
+  ],
+  "officialIconsEnabled": true
+}
