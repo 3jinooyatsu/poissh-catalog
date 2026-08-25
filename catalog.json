@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "presets": [
     {
       "id": "rakuten-pointclub",
@@ -139,7 +139,7 @@
     },
     {
       "id": "rakuten-pay",
-      "name": "楽天ペイ",
+      "name": "楽天ペイ(検証v6)",
       "category": "payment",
       "colorHex": "BF1C2C",
       "hostAppID": "jp.co.rakuten.pay.shopper",
@@ -160,6 +160,13 @@
           "fallbackURL": "https://pay.rakuten.co.jp/",
           "hint": "支払いコードを提示",
           "urlScheme": "rakutenpay://"
+        },
+        {
+          "role": "point",
+          "systemTag": "d",
+          "urlScheme": "rakutenpay://",
+          "generalPoint": true,
+          "hint": "検証で足したもの"
         }
       ],
       "appStoreID": "1139755229",
