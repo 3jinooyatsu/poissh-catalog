@@ -1,5 +1,5 @@
 {
-  "version": 10,
+  "version": 11,
   "presets": [
     {
       "id": "rakuten-pointclub",
@@ -396,15 +396,7 @@
       "category": "store",
       "colorHex": "C9A227",
       "hostAppID": "jp.co.duskin.misdocardapps",
-      "capabilities": [
-        {
-          "role": "membership",
-          "appStoreID": "955641819",
-          "fallbackURL": "https://www.misterdonut.jp/",
-          "hint": "スタンプは334円以上 / 1日1回",
-          "urlScheme": "jp.co.duskin.misdocardapps.dev://"
-        }
-      ],
+      "capabilities": [],
       "appStoreID": "955641819",
       "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/40/32/be403231-1363-5911-ee40-abc8a51bd4a9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "searchTerms": [
