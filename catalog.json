@@ -1,5 +1,5 @@
 {
-  "version": 14,
+  "version": 15,
   "presets": [
     {
       "id": "rakuten-pointclub",
@@ -1276,7 +1276,8 @@
       "capabilities": [
         {
           "role": "membership",
-          "appStoreID": "1345275897"
+          "appStoreID": "1345275897",
+          "hint": "来店カウントは820円以上 / 会計時に提示"
         }
       ],
       "appStoreID": "1345275897",
@@ -1340,7 +1341,8 @@
       "capabilities": [
         {
           "role": "membership",
-          "appStoreID": "1456118550"
+          "appStoreID": "1456118550",
+          "hint": "会計時に会員バーコードを提示"
         }
       ],
       "appStoreID": "1456118550",
@@ -1383,7 +1385,8 @@
       "capabilities": [
         {
           "role": "membership",
-          "appStoreID": "6444751576"
+          "appStoreID": "6444751576",
+          "hint": "精算時に提示(後付け不可)"
         }
       ],
       "appStoreID": "6444751576",
@@ -1425,7 +1428,8 @@
       "capabilities": [
         {
           "role": "membership",
-          "appStoreID": "1287325172"
+          "appStoreID": "1287325172",
+          "hint": "会計前に会員証を提示"
         }
       ],
       "appStoreID": "1287325172",
@@ -1445,7 +1449,8 @@
       "capabilities": [
         {
           "role": "membership",
-          "appStoreID": "643133414"
+          "appStoreID": "643133414",
+          "hint": "レジで会員証を提示"
         }
       ],
       "appStoreID": "643133414",
@@ -1935,6 +1940,176 @@
       "storeAppPresetIDs": [
         "welcia"
       ]
+    },
+    {
+      "id": "kaldi",
+      "chainName": "カルディコーヒーファーム",
+      "aliases": [
+        "KALDI",
+        "カルディ"
+      ],
+      "storeAppPresetIDs": [
+        "kaldi"
+      ],
+      "acceptedPointSystems": [],
+      "pointsExclusive": true,
+      "payments": [],
+      "bestCombos": []
+    },
+    {
+      "id": "veloce",
+      "chainName": "カフェ・ベローチェ",
+      "aliases": [
+        "ベローチェ",
+        "VELOCE"
+      ],
+      "storeAppPresetIDs": [
+        "veloce"
+      ],
+      "acceptedPointSystems": [],
+      "pointsExclusive": true,
+      "payments": [],
+      "bestCombos": []
+    },
+    {
+      "id": "deandeluca",
+      "chainName": "DEAN & DELUCA",
+      "aliases": [
+        "ディーンアンドデルーカ",
+        "DEAN&DELUCA"
+      ],
+      "storeAppPresetIDs": [
+        "deandeluca"
+      ],
+      "acceptedPointSystems": [],
+      "pointsExclusive": true,
+      "payments": [],
+      "bestCombos": []
+    },
+    {
+      "id": "yakiniku-king",
+      "chainName": "焼肉きんぐ",
+      "aliases": [
+        "やきにくきんぐ"
+      ],
+      "storeAppPresetIDs": [
+        "yakiniku-king"
+      ],
+      "acceptedPointSystems": [],
+      "pointsExclusive": true,
+      "payments": [],
+      "bestCombos": []
+    },
+    {
+      "id": "hottomotto",
+      "chainName": "ほっともっと",
+      "aliases": [
+        "Hotto Motto",
+        "ホットモット"
+      ],
+      "storeAppPresetIDs": [
+        "hottomotto"
+      ],
+      "acceptedPointSystems": [],
+      "pointsExclusive": true,
+      "payments": [],
+      "bestCombos": []
+    },
+    {
+      "id": "olive-no-oka",
+      "chainName": "オリーブの丘",
+      "aliases": [
+        "イタリア食堂 オリーブの丘"
+      ],
+      "storeAppPresetIDs": [
+        "olive-no-oka"
+      ],
+      "acceptedPointSystems": [
+        "rakuten",
+        "d",
+        "v"
+      ],
+      "pointsExclusive": true,
+      "payments": [],
+      "constraintNote": "共通ポイントを使っても、残りの支払額にブォーノが付きます",
+      "bestCombos": []
+    },
+    {
+      "id": "burgerking",
+      "chainName": "バーガーキング",
+      "aliases": [
+        "BURGER KING",
+        "バーキン"
+      ],
+      "storeAppPresetIDs": [
+        "burgerking"
+      ],
+      "acceptedPointSystems": [],
+      "pointsExclusive": true,
+      "payments": [],
+      "bestCombos": []
+    },
+    {
+      "id": "create-sd",
+      "chainName": "クリエイトエス・ディー",
+      "aliases": [
+        "クリエイトSD"
+      ],
+      "storeAppPresetIDs": [
+        "create-sd"
+      ],
+      "acceptedPointSystems": [],
+      "pointsExclusive": true,
+      "payments": [],
+      "bestCombos": []
+    },
+    {
+      "id": "hungrytiger",
+      "chainName": "ハングリータイガー",
+      "aliases": [
+        "Hungry Tiger"
+      ],
+      "storeAppPresetIDs": [
+        "hungrytiger"
+      ],
+      "acceptedPointSystems": [],
+      "pointsExclusive": true,
+      "payments": [],
+      "bestCombos": []
+    },
+    {
+      "id": "tomods",
+      "chainName": "トモズ",
+      "aliases": [
+        "Tomod's",
+        "TOMODS"
+      ],
+      "storeAppPresetIDs": [
+        "tomods"
+      ],
+      "acceptedPointSystems": [
+        "d",
+        "ponta"
+      ],
+      "pointsExclusive": true,
+      "payments": [],
+      "constraintNote": "処方せんの支払いはSTポイント・dポイント・Pontaのいずれか1つ",
+      "bestCombos": []
+    },
+    {
+      "id": "mrmax",
+      "chainName": "ミスターマックス",
+      "aliases": [
+        "MrMax",
+        "MEGAミスターマックス"
+      ],
+      "storeAppPresetIDs": [
+        "mrmax"
+      ],
+      "acceptedPointSystems": [],
+      "pointsExclusive": true,
+      "payments": [],
+      "bestCombos": []
     }
   ],
   "officialIconsEnabled": true
