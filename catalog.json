@@ -1,5 +1,5 @@
 {
-  "version": 13,
+  "version": 14,
   "presets": [
     {
       "id": "rakuten-pointclub",
@@ -1199,6 +1199,262 @@
         "cainz",
         "カインズ",
         "かいんず"
+      ]
+    },
+    {
+      "id": "kaldi",
+      "name": "カルディコーヒーファーム",
+      "category": "store",
+      "colorHex": "7C5C33",
+      "hostAppID": "jp.co.kaldi.ios.app",
+      "capabilities": [
+        {
+          "role": "membership",
+          "appStoreID": "1536883213",
+          "hint": "カルディカードを提示"
+        }
+      ],
+      "appStoreID": "1536883213",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/42/ba/39/42ba3955-93bb-daf6-179b-3607b7c7ca6f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "kaldi",
+        "カルディ",
+        "かるでぃ",
+        "コーヒー"
+      ]
+    },
+    {
+      "id": "veloce",
+      "name": "カフェ・ベローチェ",
+      "category": "store",
+      "colorHex": "FE0000",
+      "hostAppID": "com.syn-inc.veloce",
+      "capabilities": [
+        {
+          "role": "membership",
+          "appStoreID": "6739830615",
+          "hint": "ポイントカードを提示"
+        }
+      ],
+      "appStoreID": "6739830615",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/d3/f6/63d3f60e-d108-d38a-8d77-02d5fe712b8c/com.syn-inc.veloce-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "veloce",
+        "ベローチェ",
+        "べろーちぇ",
+        "カフェ"
+      ]
+    },
+    {
+      "id": "deandeluca",
+      "name": "DEAN & DELUCA",
+      "category": "store",
+      "colorHex": "1A1A1A",
+      "hostAppID": "jp.co.deandeluca.DD",
+      "capabilities": [
+        {
+          "role": "membership",
+          "appStoreID": "1608479198",
+          "hint": "CLUB PASSを提示"
+        }
+      ],
+      "appStoreID": "1608479198",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0b/01/58/0b0158c2-e304-70dc-4372-1b604784cc98/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "dean",
+        "deluca",
+        "ディーンアンドデルーカ",
+        "でぃーん"
+      ]
+    },
+    {
+      "id": "yakiniku-king",
+      "name": "焼肉きんぐ",
+      "category": "store",
+      "colorHex": "C8161D",
+      "hostAppID": "jp.yakiniku.king",
+      "capabilities": [
+        {
+          "role": "membership",
+          "appStoreID": "1345275897"
+        }
+      ],
+      "appStoreID": "1345275897",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bb/e7/4d/bbe74da0-f2db-abf8-7a33-28730a281110/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "yakinikuking",
+        "焼肉きんぐ",
+        "やきにくきんぐ",
+        "きんぐ"
+      ]
+    },
+    {
+      "id": "hottomotto",
+      "name": "ほっともっと",
+      "category": "store",
+      "colorHex": "E70012",
+      "hostAppID": "jp.co.hottomotto.app",
+      "capabilities": [
+        {
+          "role": "membership",
+          "appStoreID": "1497475671",
+          "hint": "ポイントカードを提示"
+        }
+      ],
+      "appStoreID": "1497475671",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/c2/9c/edc29cc3-3e08-4983-0d0f-e83256ac6c4f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "hottomotto",
+        "ほっともっと",
+        "ほっもと",
+        "弁当"
+      ]
+    },
+    {
+      "id": "olive-no-oka",
+      "name": "オリーブの丘",
+      "category": "store",
+      "colorHex": "00944B",
+      "hostAppID": "jp.co.zensho.olivenooka",
+      "capabilities": [
+        {
+          "role": "membership",
+          "appStoreID": "1595786427",
+          "hint": "ブォーノを貯める"
+        }
+      ],
+      "appStoreID": "1595786427",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/72/59/46/72594679-f83c-f39d-15c4-69e1defb8e6a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "olive",
+        "オリーブの丘",
+        "おりーぶ"
+      ]
+    },
+    {
+      "id": "burgerking",
+      "name": "バーガーキング",
+      "category": "store",
+      "colorHex": "FF8231",
+      "hostAppID": "jp.co.burgerkingjapan",
+      "capabilities": [
+        {
+          "role": "membership",
+          "appStoreID": "1456118550"
+        }
+      ],
+      "appStoreID": "1456118550",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c9/d6/55/c9d65557-b3f3-707a-b502-0a553e42c360/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "burgerking",
+        "バーガーキング",
+        "ばーがーきんぐ",
+        "bk"
+      ]
+    },
+    {
+      "id": "create-sd",
+      "name": "クリエイトエス・ディー",
+      "category": "store",
+      "colorHex": "003F74",
+      "hostAppID": "jp.co.create-sd.vxtenpoapp",
+      "capabilities": [
+        {
+          "role": "membership",
+          "appStoreID": "1439769531",
+          "hint": "ポイントカードを提示"
+        }
+      ],
+      "appStoreID": "1439769531",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/51/78/48/51784844-016a-0763-aa69-989eafc279d1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "createsd",
+        "クリエイト",
+        "くりえいと",
+        "ドラッグストア"
+      ]
+    },
+    {
+      "id": "hungrytiger",
+      "name": "ハングリータイガー",
+      "category": "store",
+      "colorHex": "E62B18",
+      "hostAppID": "com.hungryti.NA2200766",
+      "capabilities": [
+        {
+          "role": "membership",
+          "appStoreID": "6444751576"
+        }
+      ],
+      "appStoreID": "6444751576",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a6/10/3c/a6103c8d-482c-07ae-5ce8-0f6f97848da0/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "hungrytiger",
+        "ハングリータイガー",
+        "はんぐりーたいがー"
+      ]
+    },
+    {
+      "id": "tomods",
+      "name": "トモズ",
+      "category": "store",
+      "colorHex": "0F2765",
+      "hostAppID": "jp.tomods.app.tomods",
+      "capabilities": [
+        {
+          "role": "membership",
+          "appStoreID": "1513856488",
+          "hint": "会員証を提示"
+        }
+      ],
+      "appStoreID": "1513856488",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/4a/63/3b4a636f-2ba7-0edf-a861-662cb3008d87/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "tomods",
+        "トモズ",
+        "ともず",
+        "ドラッグストア"
+      ]
+    },
+    {
+      "id": "mrmax",
+      "name": "ミスターマックス",
+      "category": "store",
+      "colorHex": "0A2D87",
+      "hostAppID": "jp.co.mrmax.app",
+      "capabilities": [
+        {
+          "role": "membership",
+          "appStoreID": "1287325172"
+        }
+      ],
+      "appStoreID": "1287325172",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0b/de/fc/0bdefc58-5578-4f61-72a0-41acc3df9aaa/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "mrmax",
+        "ミスターマックス",
+        "みすたーまっくす"
+      ]
+    },
+    {
+      "id": "palcloset",
+      "name": "PAL CLOSET",
+      "category": "store",
+      "colorHex": "FF5100",
+      "hostAppID": "jp.ne.palgroup.palshopapp",
+      "capabilities": [
+        {
+          "role": "membership",
+          "appStoreID": "643133414"
+        }
+      ],
+      "appStoreID": "643133414",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/29/dd/b7/29ddb725-71bc-06ab-4c5e-d0b0a48cc5ba/AppIcon2023-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "pal",
+        "palcloset",
+        "パルクローゼット",
+        "ぱるくろーぜっと"
       ]
     }
   ],
