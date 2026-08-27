@@ -1,5 +1,5 @@
 {
-  "version": 16,
+  "version": 17,
   "presets": [
     {
       "id": "rakuten-pointclub",
@@ -1500,10 +1500,9 @@
       "hostAppID": "app.lopia.lopita-i",
       "capabilities": [
         {
-          "role": "payment",
-          "systemTag": "lopia",
+          "role": "membership",
           "appStoreID": "6446841358",
-          "hint": "チャージ残高から支払う。Cは自動で付く"
+          "hint": "レジで提示。チャージ残高から引かれ、Cが付く"
         }
       ],
       "appStoreID": "6446841358",
