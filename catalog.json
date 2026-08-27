@@ -1,5 +1,5 @@
 {
-  "version": 15,
+  "version": 16,
   "presets": [
     {
       "id": "rakuten-pointclub",
@@ -1461,6 +1461,60 @@
         "パルクローゼット",
         "ぱるくろーぜっと"
       ]
+    },
+    {
+      "id": "majica",
+      "name": "majica",
+      "category": "store",
+      "colorHex": "E50014",
+      "hostAppID": "com.donki.majica",
+      "capabilities": [
+        {
+          "role": "membership",
+          "appStoreID": "1001883210",
+          "hint": "レジで提示。会計もチャージも同じバーコード"
+        },
+        {
+          "role": "payment",
+          "systemTag": "majica",
+          "appStoreID": "1001883210"
+        }
+      ],
+      "appStoreID": "1001883210",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d4/fb/b7/d4fbb767-c21e-c036-1aae-fbeac6ed7c88/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "majica",
+        "マジカ",
+        "まじか",
+        "ドンキ",
+        "ドン・キホーテ",
+        "アピタ",
+        "ピアゴ"
+      ]
+    },
+    {
+      "id": "lopia",
+      "name": "ロピア",
+      "category": "store",
+      "colorHex": "C70E51",
+      "hostAppID": "app.lopia.lopita-i",
+      "capabilities": [
+        {
+          "role": "payment",
+          "systemTag": "lopia",
+          "appStoreID": "6446841358",
+          "hint": "チャージ残高から支払う。Cは自動で付く"
+        }
+      ],
+      "appStoreID": "6446841358",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dd/7b/4e/dd7b4e87-fcc7-dca4-467d-9da31aa25190/lopia-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "lopia",
+        "ロピア",
+        "ろぴあ",
+        "ロピタ",
+        "スーパー"
+      ]
     }
   ],
   "storeTemplates": [
@@ -2105,6 +2159,40 @@
       ],
       "storeAppPresetIDs": [
         "mrmax"
+      ],
+      "acceptedPointSystems": [],
+      "pointsExclusive": true,
+      "payments": [],
+      "bestCombos": []
+    },
+    {
+      "id": "donki",
+      "chainName": "ドン・キホーテ",
+      "aliases": [
+        "MEGAドン・キホーテ",
+        "ドンキ",
+        "ピカソ",
+        "長崎屋",
+        "アピタ",
+        "ピアゴ",
+        "essence"
+      ],
+      "storeAppPresetIDs": [
+        "majica"
+      ],
+      "acceptedPointSystems": [],
+      "pointsExclusive": true,
+      "payments": [],
+      "bestCombos": []
+    },
+    {
+      "id": "lopia",
+      "chainName": "ロピア",
+      "aliases": [
+        "LOPIA"
+      ],
+      "storeAppPresetIDs": [
+        "lopia"
       ],
       "acceptedPointSystems": [],
       "pointsExclusive": true,
