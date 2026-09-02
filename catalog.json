@@ -1,5 +1,5 @@
 {
-  "version": 18,
+  "version": 19,
   "presets": [
     {
       "id": "rakuten-pointclub",
@@ -2529,6 +2529,25 @@
       ],
       "storeAppPresetIDs": [
         "cainz"
+      ],
+      "acceptedPointSystems": [],
+      "pointsExclusive": true,
+      "payments": [],
+      "bestCombos": []
+    },
+    {
+      "id": "3coins",
+      "chainName": "3COINS",
+      "aliases": [
+        "スリーコインズ",
+        "3COINS +plus",
+        "3COINS OOOPS!",
+        "3COINS station",
+        "PAL CLOSET",
+        "パルクローゼット"
+      ],
+      "storeAppPresetIDs": [
+        "palcloset"
       ],
       "acceptedPointSystems": [],
       "pointsExclusive": true,
