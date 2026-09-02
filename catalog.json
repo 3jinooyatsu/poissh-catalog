@@ -1,5 +1,5 @@
 {
-  "version": 20,
+  "version": 21,
   "presets": [
     {
       "id": "rakuten-pointclub",
@@ -1215,7 +1215,8 @@
         {
           "role": "membership",
           "appStoreID": "1536883213",
-          "hint": "カルディカードを提示"
+          "hint": "カルディカードを提示",
+          "urlScheme": "kaldi-value-wallet://"
         }
       ],
       "appStoreID": "1536883213",
@@ -1281,7 +1282,8 @@
         {
           "role": "membership",
           "appStoreID": "1345275897",
-          "hint": "来店カウントは820円以上 / 会計時に提示"
+          "hint": "来店カウントは820円以上 / 会計時に提示",
+          "urlScheme": "jp.yakiniku.king://"
         }
       ],
       "appStoreID": "1345275897",
@@ -1346,7 +1348,8 @@
         {
           "role": "membership",
           "appStoreID": "1456118550",
-          "hint": "会計時に会員バーコードを提示"
+          "hint": "会計時に会員バーコードを提示",
+          "urlScheme": "burgerkingjp://"
         }
       ],
       "appStoreID": "1456118550",
@@ -1476,12 +1479,14 @@
         {
           "role": "membership",
           "appStoreID": "1001883210",
-          "hint": "レジで提示。会計もチャージも同じバーコード"
+          "hint": "レジで提示。会計もチャージも同じバーコード",
+          "urlScheme": "majicaApp://"
         },
         {
           "role": "payment",
           "systemTag": "majica",
-          "appStoreID": "1001883210"
+          "appStoreID": "1001883210",
+          "urlScheme": "majicaApp://"
         }
       ],
       "appStoreID": "1001883210",
