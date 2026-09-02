@@ -1,5 +1,5 @@
 {
-  "version": 17,
+  "version": 18,
   "presets": [
     {
       "id": "rakuten-pointclub",
@@ -1811,6 +1811,12 @@
       ],
       "storeAppPresetIDs": [
         "skylark"
+      ],
+      "mapQueries": [
+        "ガスト",
+        "バーミヤン",
+        "ジョナサン",
+        "しゃぶ葉"
       ]
     },
     {
@@ -1936,6 +1942,10 @@
       ],
       "storeAppPresetIDs": [
         "matsukiyo"
+      ],
+      "mapQueries": [
+        "マツモトキヨシ",
+        "ココカラファイン"
       ]
     },
     {
@@ -1966,6 +1976,10 @@
       ],
       "storeAppPresetIDs": [
         "tsuruha"
+      ],
+      "mapQueries": [
+        "ツルハドラッグ",
+        "くすりの福太郎"
       ]
     },
     {
@@ -1992,6 +2006,10 @@
       "bestCombos": [],
       "storeAppPresetIDs": [
         "welcia"
+      ],
+      "mapQueries": [
+        "ウエルシア",
+        "ハックドラッグ"
       ]
     },
     {
@@ -2106,7 +2124,8 @@
       "id": "create-sd",
       "chainName": "クリエイトエス・ディー",
       "aliases": [
-        "クリエイトSD"
+        "クリエイトSD",
+        "CREATE"
       ],
       "storeAppPresetIDs": [
         "create-sd"
@@ -2182,7 +2201,12 @@
       "acceptedPointSystems": [],
       "pointsExclusive": true,
       "payments": [],
-      "bestCombos": []
+      "bestCombos": [],
+      "mapQueries": [
+        "ドン・キホーテ",
+        "アピタ",
+        "ピアゴ"
+      ]
     },
     {
       "id": "lopia",
@@ -2192,6 +2216,319 @@
       ],
       "storeAppPresetIDs": [
         "lopia"
+      ],
+      "acceptedPointSystems": [],
+      "pointsExclusive": true,
+      "payments": [],
+      "bestCombos": []
+    },
+    {
+      "id": "mcdonalds",
+      "chainName": "マクドナルド",
+      "aliases": [
+        "McDonald's",
+        "マック",
+        "マクド"
+      ],
+      "storeAppPresetIDs": [
+        "mcdonalds"
+      ],
+      "acceptedPointSystems": [],
+      "pointsExclusive": true,
+      "payments": [],
+      "bestCombos": []
+    },
+    {
+      "id": "starbucks",
+      "chainName": "スターバックス",
+      "aliases": [
+        "スターバックスコーヒー",
+        "STARBUCKS",
+        "スタバ"
+      ],
+      "storeAppPresetIDs": [
+        "starbucks"
+      ],
+      "acceptedPointSystems": [],
+      "pointsExclusive": true,
+      "payments": [],
+      "bestCombos": []
+    },
+    {
+      "id": "doutor",
+      "chainName": "ドトールコーヒーショップ",
+      "aliases": [
+        "ドトール",
+        "DOUTOR",
+        "エクセルシオールカフェ"
+      ],
+      "storeAppPresetIDs": [
+        "doutor"
+      ],
+      "mapQueries": [
+        "ドトールコーヒーショップ",
+        "エクセルシオールカフェ"
+      ],
+      "acceptedPointSystems": [],
+      "pointsExclusive": true,
+      "payments": [],
+      "bestCombos": []
+    },
+    {
+      "id": "tullys",
+      "chainName": "タリーズコーヒー",
+      "aliases": [
+        "タリーズ",
+        "TULLY'S"
+      ],
+      "storeAppPresetIDs": [
+        "tullys"
+      ],
+      "acceptedPointSystems": [],
+      "pointsExclusive": true,
+      "payments": [],
+      "bestCombos": []
+    },
+    {
+      "id": "komeda",
+      "chainName": "コメダ珈琲店",
+      "aliases": [
+        "コメダ珈琲",
+        "コメダ"
+      ],
+      "storeAppPresetIDs": [
+        "komeda"
+      ],
+      "acceptedPointSystems": [],
+      "pointsExclusive": true,
+      "payments": [],
+      "bestCombos": []
+    },
+    {
+      "id": "sugi",
+      "chainName": "スギ薬局",
+      "aliases": [
+        "スギドラッグ"
+      ],
+      "storeAppPresetIDs": [
+        "sugi"
+      ],
+      "acceptedPointSystems": [],
+      "pointsExclusive": true,
+      "payments": [],
+      "bestCombos": []
+    },
+    {
+      "id": "aeon",
+      "chainName": "イオン",
+      "aliases": [
+        "イオンスタイル",
+        "イオンモール",
+        "イオンフードスタイル",
+        "そよら"
+      ],
+      "storeAppPresetIDs": [
+        "iaeon"
+      ],
+      "acceptedPointSystems": [
+        "waon"
+      ],
+      "pointsExclusive": true,
+      "payments": [],
+      "bestCombos": []
+    },
+    {
+      "id": "itoyokado",
+      "chainName": "イトーヨーカドー",
+      "aliases": [
+        "ヨーカドー"
+      ],
+      "storeAppPresetIDs": [
+        "itoyokado"
+      ],
+      "acceptedPointSystems": [],
+      "pointsExclusive": true,
+      "payments": [],
+      "bestCombos": []
+    },
+    {
+      "id": "biccamera",
+      "chainName": "ビックカメラ",
+      "aliases": [
+        "BIC CAMERA",
+        "コジマ"
+      ],
+      "storeAppPresetIDs": [
+        "biccamera"
+      ],
+      "mapQueries": [
+        "ビックカメラ",
+        "コジマ"
+      ],
+      "acceptedPointSystems": [],
+      "pointsExclusive": true,
+      "payments": [],
+      "bestCombos": []
+    },
+    {
+      "id": "yodobashi",
+      "chainName": "ヨドバシカメラ",
+      "aliases": [
+        "ヨドバシ"
+      ],
+      "storeAppPresetIDs": [
+        "yodobashi"
+      ],
+      "acceptedPointSystems": [],
+      "pointsExclusive": true,
+      "payments": [],
+      "bestCombos": []
+    },
+    {
+      "id": "yamada",
+      "chainName": "ヤマダデンキ",
+      "aliases": [
+        "ヤマダ電機",
+        "LABI",
+        "テックランド"
+      ],
+      "storeAppPresetIDs": [
+        "yamada"
+      ],
+      "acceptedPointSystems": [],
+      "pointsExclusive": true,
+      "payments": [],
+      "bestCombos": []
+    },
+    {
+      "id": "uniqlo",
+      "chainName": "ユニクロ",
+      "aliases": [
+        "UNIQLO"
+      ],
+      "storeAppPresetIDs": [
+        "uniqlo"
+      ],
+      "acceptedPointSystems": [],
+      "pointsExclusive": true,
+      "payments": [],
+      "bestCombos": []
+    },
+    {
+      "id": "gu",
+      "chainName": "ジーユー",
+      "aliases": [
+        "GU"
+      ],
+      "storeAppPresetIDs": [
+        "gu"
+      ],
+      "acceptedPointSystems": [],
+      "pointsExclusive": true,
+      "payments": [],
+      "bestCombos": []
+    },
+    {
+      "id": "muji",
+      "chainName": "無印良品",
+      "aliases": [
+        "MUJI"
+      ],
+      "storeAppPresetIDs": [
+        "muji"
+      ],
+      "acceptedPointSystems": [],
+      "pointsExclusive": true,
+      "payments": [],
+      "bestCombos": []
+    },
+    {
+      "id": "shimamura",
+      "chainName": "しまむら",
+      "aliases": [
+        "ファッションセンターしまむら"
+      ],
+      "storeAppPresetIDs": [
+        "shimamura"
+      ],
+      "acceptedPointSystems": [],
+      "pointsExclusive": true,
+      "payments": [],
+      "bestCombos": []
+    },
+    {
+      "id": "daiso",
+      "chainName": "ダイソー",
+      "aliases": [
+        "DAISO"
+      ],
+      "storeAppPresetIDs": [
+        "daiso"
+      ],
+      "acceptedPointSystems": [],
+      "pointsExclusive": true,
+      "payments": [],
+      "bestCombos": []
+    },
+    {
+      "id": "marugame",
+      "chainName": "丸亀製麺",
+      "aliases": [],
+      "storeAppPresetIDs": [
+        "marugame"
+      ],
+      "acceptedPointSystems": [],
+      "pointsExclusive": true,
+      "payments": [],
+      "bestCombos": []
+    },
+    {
+      "id": "sushiro",
+      "chainName": "スシロー",
+      "aliases": [],
+      "storeAppPresetIDs": [
+        "sushiro"
+      ],
+      "acceptedPointSystems": [],
+      "pointsExclusive": true,
+      "payments": [],
+      "bestCombos": []
+    },
+    {
+      "id": "hamasushi",
+      "chainName": "はま寿司",
+      "aliases": [],
+      "storeAppPresetIDs": [
+        "hamasushi"
+      ],
+      "acceptedPointSystems": [],
+      "pointsExclusive": true,
+      "payments": [],
+      "bestCombos": []
+    },
+    {
+      "id": "nitori",
+      "chainName": "ニトリ",
+      "aliases": [
+        "ニトリEXPRESS",
+        "ニトリデコホーム"
+      ],
+      "storeAppPresetIDs": [
+        "nitori"
+      ],
+      "acceptedPointSystems": [],
+      "pointsExclusive": true,
+      "payments": [],
+      "bestCombos": []
+    },
+    {
+      "id": "cainz",
+      "chainName": "カインズ",
+      "aliases": [
+        "CAINZ"
+      ],
+      "storeAppPresetIDs": [
+        "cainz"
       ],
       "acceptedPointSystems": [],
       "pointsExclusive": true,
