@@ -1,5 +1,5 @@
 {
-  "version": 19,
+  "version": 20,
   "presets": [
     {
       "id": "rakuten-pointclub",
@@ -201,7 +201,7 @@
       "name": "d払い",
       "category": "payment",
       "colorHex": "E4002B",
-      "hostAppID": "jp.docomo.dbarai",
+      "hostAppID": "com.nttdocomo.keitaibarai",
       "capabilities": [
         {
           "role": "point",
@@ -245,7 +245,8 @@
           "fallbackURL": "https://wallet.auone.jp/",
           "hint": "Pontaカードを提示",
           "urlScheme": null,
-          "generalPoint": true
+          "generalPoint": true,
+          "universalLink": "https://wallet.auone.jp/contents/sp/app/launch_app_deeplink.html"
         },
         {
           "role": "payment",
@@ -346,7 +347,8 @@
           "systemTag": "merpay",
           "fallbackURL": "https://www.merpay.com/",
           "hint": "メルカリアプリの支払いタブ",
-          "appStoreID": "667861049"
+          "appStoreID": "667861049",
+          "universalLink": "https://jp.mercari.com/"
         }
       ],
       "appStoreID": "667861049",
@@ -363,7 +365,7 @@
       "name": "ファミペイ",
       "category": "payment",
       "colorHex": "00A040",
-      "hostAppID": "jp.family.famipay",
+      "hostAppID": "jp.co.family.familymart-app",
       "capabilities": [
         {
           "role": "membership",
@@ -505,7 +507,7 @@
       "name": "モスバーガー",
       "category": "store",
       "colorHex": "C41E2F",
-      "hostAppID": "jp.mos.app",
+      "hostAppID": "jp.co.mos.MosFood",
       "capabilities": [
         {
           "role": "membership",
@@ -641,7 +643,7 @@
       "name": "ドトール バリューカード",
       "category": "store",
       "colorHex": "FFD400",
-      "hostAppID": "jp.doutor.app",
+      "hostAppID": "jp.co.doutor.dvc",
       "capabilities": [
         {
           "role": "membership",
@@ -663,7 +665,7 @@
       "name": "タリーズコーヒー",
       "category": "store",
       "colorHex": "004E36",
-      "hostAppID": "jp.tullys.app",
+      "hostAppID": "jp.co.tullys.app",
       "capabilities": [
         {
           "role": "membership",
@@ -684,7 +686,7 @@
       "name": "コメダ珈琲店",
       "category": "store",
       "colorHex": "8B0000",
-      "hostAppID": "jp.komeda.app",
+      "hostAppID": "jp.co.komeda.ua.ios.pub",
       "capabilities": [
         {
           "role": "membership",
@@ -706,7 +708,7 @@
       "name": "マツキヨココカラ",
       "category": "store",
       "colorHex": "FFDD00",
-      "hostAppID": "jp.matsukiyococokara.app",
+      "hostAppID": "jp.co.matsukiyococokara.app",
       "capabilities": [
         {
           "role": "membership",
@@ -731,7 +733,7 @@
       "name": "ウエルシアグループ",
       "category": "store",
       "colorHex": "00A0E9",
-      "hostAppID": "jp.welcia.app",
+      "hostAppID": "jp.co.welcia-yakkyoku.tapps",
       "capabilities": [
         {
           "role": "point",
@@ -764,12 +766,13 @@
       "name": "スギ薬局",
       "category": "store",
       "colorHex": "E60027",
-      "hostAppID": "jp.sugi.app",
+      "hostAppID": "jp.sugi.sugitomo",
       "capabilities": [
         {
           "role": "membership",
           "fallbackURL": "https://www.sugi-net.jp/",
-          "appStoreID": "853001943"
+          "appStoreID": "853001943",
+          "universalLink": "https://link.sugi-net.jp/"
         }
       ],
       "appStoreID": "853001943",
@@ -786,7 +789,7 @@
       "name": "ツルハドラッグ",
       "category": "store",
       "colorHex": "00479D",
-      "hostAppID": "jp.tsuruha.app",
+      "hostAppID": "jp.co.tsuruhahd.tsuruhadrug",
       "capabilities": [
         {
           "role": "membership",
@@ -845,7 +848,7 @@
       "name": "イトーヨーカドー",
       "category": "store",
       "colorHex": "E60012",
-      "hostAppID": "jp.itoyokado.app",
+      "hostAppID": "jp.co.itoyokado.iphone.chirashi-app",
       "capabilities": [
         {
           "role": "membership",
@@ -959,12 +962,13 @@
       "name": "ジーユー",
       "category": "store",
       "colorHex": "0A50A1",
-      "hostAppID": "com.gu.jp",
+      "hostAppID": "com.gu-japan.osharemaker",
       "capabilities": [
         {
           "role": "membership",
           "fallbackURL": "https://www.gu-global.com/jp/",
-          "appStoreID": "504542019"
+          "appStoreID": "504542019",
+          "universalLink": "https://www.gu-global.com/jp/ja/member"
         }
       ],
       "appStoreID": "504542019",
@@ -1004,7 +1008,7 @@
       "name": "しまむらパーク",
       "category": "store",
       "colorHex": "E83828",
-      "hostAppID": "jp.shimamura.app",
+      "hostAppID": "jp.gr.shimamura.app",
       "capabilities": [
         {
           "role": "membership",
@@ -1025,7 +1029,7 @@
       "name": "DAISOアプリ",
       "category": "store",
       "colorHex": "D5006D",
-      "hostAppID": "jp.daiso.app",
+      "hostAppID": "com.daisojapan",
       "capabilities": [
         {
           "role": "membership",
@@ -1074,7 +1078,7 @@
       "name": "丸亀製麺",
       "category": "store",
       "colorHex": "8F2E14",
-      "hostAppID": "jp.marugame.app",
+      "hostAppID": "com.toridoll.marugame.ios.MarugameSeimen",
       "capabilities": [
         {
           "role": "membership",
@@ -1119,7 +1123,7 @@
       "name": "くら寿司",
       "category": "store",
       "colorHex": "00418E",
-      "hostAppID": "jp.kurasushi.app",
+      "hostAppID": "jp.co.kura-corpo.KuraApp",
       "capabilities": [
         {
           "role": "membership",
@@ -1163,7 +1167,7 @@
       "name": "ニトリ",
       "category": "store",
       "colorHex": "00A73C",
-      "hostAppID": "jp.nitori.app",
+      "hostAppID": "com.locationvalue.nitori",
       "capabilities": [
         {
           "role": "membership",
@@ -1185,7 +1189,7 @@
       "name": "カインズ",
       "category": "store",
       "colorHex": "00984B",
-      "hostAppID": "jp.cainz.app",
+      "hostAppID": "com.cainz.cainz",
       "capabilities": [
         {
           "role": "membership",
