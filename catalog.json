@@ -1,5 +1,5 @@
 {
-  "version": 26,
+  "version": 27,
   "presets": [
     {
       "id": "rakuten-pointclub",
@@ -1534,6 +1534,119 @@
         "ロピタ",
         "スーパー"
       ]
+    },
+    {
+      "id": "nojima",
+      "name": "ノジマ",
+      "category": "store",
+      "colorHex": "35498A",
+      "hostAppID": "jp.mnoji.application",
+      "capabilities": [
+        {
+          "role": "membership",
+          "appStoreID": "451436140",
+          "fallbackURL": "https://www.nojima.co.jp/",
+          "hint": "レジでポイントカードを提示",
+          "urlScheme": "mnoji://"
+        }
+      ],
+      "appStoreID": "451436140",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bc/4d/8d/bc4d8d4c-a161-c330-b8ba-2c32bfb8d5f6/AppIcon-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "nojima",
+        "ノジマ",
+        "のじま"
+      ]
+    },
+    {
+      "id": "seibu-prince",
+      "name": "SEIBU PRINCE CLUB",
+      "category": "store",
+      "colorHex": "0387D0",
+      "hostAppID": "jp.seibugroup.club.app",
+      "capabilities": [
+        {
+          "role": "membership",
+          "appStoreID": "1504829657",
+          "hint": "お会計時に会員コードを提示",
+          "urlScheme": "seibuprinceclubapp://"
+        }
+      ],
+      "appStoreID": "1504829657",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0d/d8/cb/0dd8cbe6-5ec5-cc19-3c1c-92b684e57143/AppIconSPC-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "seibu",
+        "西武",
+        "せいぶ",
+        "プリンス",
+        "SEIBUポイント"
+      ]
+    },
+    {
+      "id": "gyukaku",
+      "name": "牛角",
+      "category": "store",
+      "colorHex": "1F1F1F",
+      "hostAppID": "jp.co.reins.gyukaku",
+      "capabilities": [
+        {
+          "role": "membership",
+          "appStoreID": "934623532",
+          "fallbackURL": "https://www.gyukaku.ne.jp/",
+          "hint": "お会計時にポイント会員証を提示",
+          "universalLink": "https://gk-dlink.reins-app.com/member"
+        }
+      ],
+      "appStoreID": "934623532",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d8/71/e9/d871e9dc-1109-abcd-e71c-5df94d0e9bb6/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "gyukaku",
+        "牛角",
+        "ぎゅうかく"
+      ]
+    },
+    {
+      "id": "jiqoo",
+      "name": "自遊空間",
+      "category": "store",
+      "colorHex": "E4321A",
+      "hostAppID": "com.locationvalue.jiqoo",
+      "capabilities": [
+        {
+          "role": "membership",
+          "appStoreID": "608149604",
+          "hint": "入店時にアプリ会員証を提示"
+        }
+      ],
+      "appStoreID": "608149604",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/75/ae/d9/75aed960-e6a0-642b-e3e2-68dc176185a9/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "searchTerms": [
+        "jiqoo",
+        "自遊空間",
+        "じゆうくうかん"
+      ]
+    },
+    {
+      "id": "pony-cleaning",
+      "name": "ポニークリーニング",
+      "category": "store",
+      "colorHex": "358B96",
+      "hostAppID": "jp.digijapan.pony0418",
+      "capabilities": [
+        {
+          "role": "membership",
+          "appStoreID": "1490806839",
+          "hint": "受付で会員証を提示"
+        }
+      ],
+      "appStoreID": "1490806839",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/67/7b/c5/677bc58b-b40e-aa65-e864-df51467b1db0/AppIcon-418-0-0-1x_U007ephone-0-1-0-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "pony",
+        "ポニークリーニング",
+        "ぽにー",
+        "クリーニング"
+      ]
     }
   ],
   "storeTemplates": [
@@ -2540,6 +2653,54 @@
       "pointsExclusive": true,
       "payments": [],
       "bestCombos": []
+    },
+    {
+      "id": "nojima",
+      "chainName": "ノジマ",
+      "aliases": [
+        "nojima"
+      ],
+      "storeAppPresetIDs": [
+        "nojima"
+      ],
+      "acceptedPointSystems": [],
+      "pointsExclusive": true
+    },
+    {
+      "id": "gyukaku",
+      "chainName": "牛角",
+      "aliases": [
+        "gyukaku"
+      ],
+      "storeAppPresetIDs": [
+        "gyukaku"
+      ],
+      "acceptedPointSystems": [],
+      "pointsExclusive": true
+    },
+    {
+      "id": "jiqoo",
+      "chainName": "自遊空間",
+      "aliases": [
+        "jiqoo"
+      ],
+      "storeAppPresetIDs": [
+        "jiqoo"
+      ],
+      "acceptedPointSystems": [],
+      "pointsExclusive": true
+    },
+    {
+      "id": "pony-cleaning",
+      "chainName": "ポニークリーニング",
+      "aliases": [
+        "ポニー"
+      ],
+      "storeAppPresetIDs": [
+        "pony-cleaning"
+      ],
+      "acceptedPointSystems": [],
+      "pointsExclusive": true
     }
   ],
   "officialIconsEnabled": true
