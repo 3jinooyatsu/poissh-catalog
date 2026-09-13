@@ -1,5 +1,5 @@
 {
-  "version": 23,
+  "version": 24,
   "presets": [
     {
       "id": "rakuten-pointclub",
@@ -278,14 +278,16 @@
           "appStoreID": "1504833985",
           "fallbackURL": "https://www.vpoint.jp/",
           "hint": "モバイルVカードを提示",
-          "generalPoint": true
+          "generalPoint": true,
+          "urlScheme": "vpoint://"
         },
         {
           "role": "payment",
           "systemTag": "vpoint-pay",
           "appStoreID": "1504833985",
           "fallbackURL": "https://www.vpoint.jp/",
-          "hint": "支払いコードを提示"
+          "hint": "支払いコードを提示",
+          "urlScheme": "vpoint://"
         }
       ],
       "appStoreID": "1504833985",
@@ -311,14 +313,16 @@
           "appStoreID": "1100564842",
           "fallbackURL": "https://www.aeon.co.jp/",
           "hint": "WAON POINTカードを提示",
-          "generalPoint": true
+          "generalPoint": true,
+          "urlScheme": "aeonwalletapp://"
         },
         {
           "role": "payment",
           "systemTag": "aeon-pay",
           "appStoreID": "1100564842",
           "fallbackURL": "https://www.aeon.co.jp/",
-          "hint": "支払いコードを提示"
+          "hint": "支払いコードを提示",
+          "urlScheme": "aeonwalletapp://"
         }
       ],
       "appStoreID": "1100564842",
@@ -371,14 +375,16 @@
           "role": "membership",
           "fallbackURL": "https://famidigi.jp/",
           "hint": "会員バーコードを提示",
-          "appStoreID": "1138196572"
+          "appStoreID": "1138196572",
+          "urlScheme": "familymart-app://"
         },
         {
           "role": "payment",
           "systemTag": "famipay",
           "fallbackURL": "https://famidigi.jp/",
           "hint": "FamiPayバーコードで支払い",
-          "appStoreID": "1138196572"
+          "appStoreID": "1138196572",
+          "urlScheme": "familymart-app://"
         }
       ],
       "appStoreID": "1138196572",
@@ -801,7 +807,8 @@
         {
           "role": "membership",
           "fallbackURL": "https://www.tsuruha.co.jp/",
-          "appStoreID": "1483880235"
+          "appStoreID": "1483880235",
+          "urlScheme": "jp.co.tsuruhahd.tsuruhadrug://"
         }
       ],
       "appStoreID": "1483880235",
@@ -860,7 +867,8 @@
         {
           "role": "membership",
           "fallbackURL": "https://www.itoyokado.co.jp/",
-          "appStoreID": "490936137"
+          "appStoreID": "490936137",
+          "urlScheme": "jp.co.itoyokado://"
         }
       ],
       "appStoreID": "490936137",
@@ -907,7 +915,8 @@
           "role": "membership",
           "fallbackURL": "https://www.yodobashi.com/",
           "hint": "ポイントカードを提示",
-          "appStoreID": "531033552"
+          "appStoreID": "531033552",
+          "urlScheme": "gpc://"
         }
       ],
       "appStoreID": "531033552",
@@ -929,7 +938,8 @@
         {
           "role": "membership",
           "fallbackURL": "https://www.yamada-denki.jp/",
-          "appStoreID": "364504659"
+          "appStoreID": "364504659",
+          "urlScheme": "ymd://"
         }
       ],
       "appStoreID": "364504659",
@@ -1021,7 +1031,8 @@
         {
           "role": "membership",
           "fallbackURL": "https://www.shimamura.gr.jp/",
-          "appStoreID": "732775964"
+          "appStoreID": "732775964",
+          "urlScheme": "shimamura-app://"
         }
       ],
       "appStoreID": "732775964",
@@ -1091,7 +1102,8 @@
         {
           "role": "membership",
           "fallbackURL": "https://www.marugame-seimen.com/",
-          "appStoreID": "587248280"
+          "appStoreID": "587248280",
+          "urlScheme": "marugame://"
         }
       ],
       "appStoreID": "587248280",
@@ -1136,7 +1148,8 @@
         {
           "role": "membership",
           "fallbackURL": "https://www.kurasushi.co.jp/",
-          "appStoreID": "942355925"
+          "appStoreID": "942355925",
+          "urlScheme": "kuraapp://"
         }
       ],
       "appStoreID": "942355925",
@@ -1181,7 +1194,8 @@
           "role": "membership",
           "fallbackURL": "https://www.nitori.co.jp/",
           "hint": "会員証バーコードを提示",
-          "appStoreID": "814928018"
+          "appStoreID": "814928018",
+          "urlScheme": "nitori-app://"
         }
       ],
       "appStoreID": "814928018",
@@ -1202,7 +1216,8 @@
         {
           "role": "membership",
           "fallbackURL": "https://www.cainz.com/",
-          "appStoreID": "966865570"
+          "appStoreID": "966865570",
+          "urlScheme": "cainzapp://"
         }
       ],
       "appStoreID": "966865570",
@@ -1269,7 +1284,8 @@
         {
           "role": "membership",
           "appStoreID": "1608479198",
-          "hint": "CLUB PASSを提示"
+          "hint": "CLUB PASSを提示",
+          "urlScheme": "deandeluca-app://"
         }
       ],
       "appStoreID": "1608479198",
@@ -1314,7 +1330,8 @@
         {
           "role": "membership",
           "appStoreID": "1497475671",
-          "hint": "ポイントカードを提示"
+          "hint": "ポイントカードを提示",
+          "urlScheme": "hotmotto://"
         }
       ],
       "appStoreID": "1497475671",
@@ -1336,7 +1353,8 @@
         {
           "role": "membership",
           "appStoreID": "1595786427",
-          "hint": "ブォーノを貯める"
+          "hint": "ブォーノを貯める",
+          "urlScheme": "olivenookaapp://"
         }
       ],
       "appStoreID": "1595786427",
@@ -1380,7 +1398,8 @@
         {
           "role": "membership",
           "appStoreID": "1439769531",
-          "hint": "ポイントカードを提示"
+          "hint": "ポイントカードを提示",
+          "urlScheme": "create-sd.vxtenpoapp://"
         }
       ],
       "appStoreID": "1439769531",
@@ -1402,7 +1421,8 @@
         {
           "role": "membership",
           "appStoreID": "6444751576",
-          "hint": "精算時に提示(後付け不可)"
+          "hint": "精算時に提示(後付け不可)",
+          "urlScheme": "deploygate.0bb2150c9ee9f716c9cf7a3e3311b3a62b01d490://"
         }
       ],
       "appStoreID": "6444751576",
@@ -1523,7 +1543,8 @@
         {
           "role": "membership",
           "appStoreID": "6446841358",
-          "hint": "レジで提示。チャージ残高から引かれ、Cが付く"
+          "hint": "レジで提示。チャージ残高から引かれ、Cが付く",
+          "urlScheme": "lopita://"
         }
       ],
       "appStoreID": "6446841358",
