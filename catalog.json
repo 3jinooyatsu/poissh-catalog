@@ -1,5 +1,5 @@
 {
-  "version": 25,
+  "version": 26,
   "presets": [
     {
       "id": "rakuten-pointclub",
@@ -244,16 +244,16 @@
           "appStoreID": "862800897",
           "fallbackURL": "https://wallet.auone.jp/",
           "hint": "Pontaカードを提示",
-          "urlScheme": null,
-          "generalPoint": true,
-          "universalLink": "https://wallet.auone.jp/contents/sp/app/launch_app_deeplink.html"
+          "urlScheme": "auwallet://",
+          "generalPoint": true
         },
         {
           "role": "payment",
           "systemTag": "aupay",
           "fallbackURL": "https://wallet.auone.jp/",
           "hint": "支払いコードを提示",
-          "appStoreID": "862800897"
+          "appStoreID": "862800897",
+          "urlScheme": "auwallet://"
         }
       ],
       "appStoreID": "862800897",
@@ -352,7 +352,7 @@
           "fallbackURL": "https://www.merpay.com/",
           "hint": "メルカリアプリの支払いタブ",
           "appStoreID": "667861049",
-          "universalLink": "https://jp.mercari.com/"
+          "urlScheme": "mercari://"
         }
       ],
       "appStoreID": "667861049",
@@ -785,7 +785,7 @@
           "role": "membership",
           "fallbackURL": "https://www.sugi-net.jp/",
           "appStoreID": "853001943",
-          "universalLink": "https://link.sugi-net.jp/"
+          "urlScheme": "jp.sugi-net://"
         }
       ],
       "appStoreID": "853001943",
