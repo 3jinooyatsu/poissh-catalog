@@ -1,5 +1,5 @@
 {
-  "version": 24,
+  "version": 25,
   "presets": [
     {
       "id": "rakuten-pointclub",
@@ -1041,28 +1041,6 @@
         "shimamura",
         "しまむら",
         "シマムラ"
-      ]
-    },
-    {
-      "id": "daiso",
-      "name": "DAISOアプリ",
-      "category": "store",
-      "colorHex": "D5006D",
-      "hostAppID": "com.daisojapan",
-      "capabilities": [
-        {
-          "role": "membership",
-          "fallbackURL": "https://www.daiso-sangyo.co.jp/",
-          "appStoreID": "6466987025"
-        }
-      ],
-      "appStoreID": "6466987025",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/88/9c/06889c8c-a6be-6b64-5841-69c3dbe61c39/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "searchTerms": [
-        "daiso",
-        "ダイソー",
-        "だいそー",
-        "100均"
       ]
     },
     {
@@ -2473,20 +2451,6 @@
       ],
       "storeAppPresetIDs": [
         "shimamura"
-      ],
-      "acceptedPointSystems": [],
-      "pointsExclusive": true,
-      "payments": [],
-      "bestCombos": []
-    },
-    {
-      "id": "daiso",
-      "chainName": "ダイソー",
-      "aliases": [
-        "DAISO"
-      ],
-      "storeAppPresetIDs": [
-        "daiso"
       ],
       "acceptedPointSystems": [],
       "pointsExclusive": true,
