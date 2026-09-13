@@ -1,5 +1,5 @@
 {
-  "version": 21,
+  "version": 22,
   "presets": [
     {
       "id": "rakuten-pointclub",
@@ -512,7 +512,8 @@
         {
           "role": "membership",
           "fallbackURL": "https://www.mos.jp/",
-          "appStoreID": "390411817"
+          "appStoreID": "390411817",
+          "urlScheme": "mosspapp://"
         }
       ],
       "appStoreID": "390411817",
@@ -648,7 +649,8 @@
         {
           "role": "membership",
           "fallbackURL": "https://www.doutor.co.jp/",
-          "appStoreID": "1445398358"
+          "appStoreID": "1445398358",
+          "urlScheme": "jp.co.doutor.dvc://"
         }
       ],
       "appStoreID": "1445398358",
@@ -670,7 +672,8 @@
         {
           "role": "membership",
           "fallbackURL": "https://www.tullys.co.jp/",
-          "appStoreID": "1517333828"
+          "appStoreID": "1517333828",
+          "urlScheme": "jp.co.tullys.app://"
         }
       ],
       "appStoreID": "1517333828",
@@ -691,7 +694,8 @@
         {
           "role": "membership",
           "fallbackURL": "https://www.komeda.co.jp/",
-          "appStoreID": "1667214457"
+          "appStoreID": "1667214457",
+          "urlScheme": "komeda-ua://"
         }
       ],
       "appStoreID": "1667214457",
@@ -714,7 +718,8 @@
           "role": "membership",
           "fallbackURL": "https://www.matsukiyococokara-online.com/",
           "hint": "会員バーコードを提示",
-          "appStoreID": "6451037644"
+          "appStoreID": "6451037644",
+          "urlScheme": "matsukiyococokara://"
         }
       ],
       "appStoreID": "6451037644",
@@ -741,7 +746,8 @@
           "appStoreID": "1095620617",
           "fallbackURL": "https://www.welcia-yakkyoku.co.jp/",
           "hint": "WAON POINTのバーコードを提示",
-          "generalPoint": false
+          "generalPoint": false,
+          "urlScheme": "welciaapps://"
         },
         {
           "role": "point",
@@ -749,7 +755,8 @@
           "appStoreID": "1095620617",
           "fallbackURL": "https://www.welcia-yakkyoku.co.jp/",
           "hint": "Vポイントのバーコードを提示",
-          "generalPoint": false
+          "generalPoint": false,
+          "urlScheme": "welciaapps://"
         }
       ],
       "appStoreID": "1095620617",
@@ -968,7 +975,8 @@
           "role": "membership",
           "fallbackURL": "https://www.gu-global.com/jp/",
           "appStoreID": "504542019",
-          "universalLink": "https://www.gu-global.com/jp/ja/member"
+          "universalLink": "https://www.gu-global.com/jp/ja/member",
+          "urlScheme": "gu-japan://"
         }
       ],
       "appStoreID": "504542019",
@@ -1238,7 +1246,8 @@
         {
           "role": "membership",
           "appStoreID": "6739830615",
-          "hint": "ポイントカードを提示"
+          "hint": "ポイントカードを提示",
+          "urlScheme": "com.syn-inc.veloce://"
         }
       ],
       "appStoreID": "6739830615",
@@ -1414,7 +1423,8 @@
         {
           "role": "membership",
           "appStoreID": "1513856488",
-          "hint": "会員証を提示"
+          "hint": "会員証を提示",
+          "universalLink": "https://deep-link.tomods.lxio.net/app"
         }
       ],
       "appStoreID": "1513856488",
@@ -1436,7 +1446,8 @@
         {
           "role": "membership",
           "appStoreID": "1287325172",
-          "hint": "会計前に会員証を提示"
+          "hint": "会計前に会員証を提示",
+          "urlScheme": "mrmax.jp://"
         }
       ],
       "appStoreID": "1287325172",
@@ -1457,7 +1468,8 @@
         {
           "role": "membership",
           "appStoreID": "643133414",
-          "hint": "レジで会員証を提示"
+          "hint": "レジで会員証を提示",
+          "urlScheme": "palcloset://"
         }
       ],
       "appStoreID": "643133414",
