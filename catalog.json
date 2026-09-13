@@ -1,5 +1,5 @@
 {
-  "version": 22,
+  "version": 23,
   "presets": [
     {
       "id": "rakuten-pointclub",
@@ -816,7 +816,7 @@
     {
       "id": "iaeon",
       "name": "iAEON",
-      "category": "store",
+      "category": "point",
       "colorHex": "A50082",
       "hostAppID": "jp.co.aeonst.app.myaeon",
       "capabilities": [
@@ -2335,25 +2335,6 @@
         "sugi"
       ],
       "acceptedPointSystems": [],
-      "pointsExclusive": true,
-      "payments": [],
-      "bestCombos": []
-    },
-    {
-      "id": "aeon",
-      "chainName": "イオン",
-      "aliases": [
-        "イオンスタイル",
-        "イオンモール",
-        "イオンフードスタイル",
-        "そよら"
-      ],
-      "storeAppPresetIDs": [
-        "iaeon"
-      ],
-      "acceptedPointSystems": [
-        "waon"
-      ],
       "pointsExclusive": true,
       "payments": [],
       "bestCombos": []
