@@ -1,5 +1,5 @@
 {
-  "version": 33,
+  "version": 34,
   "presets": [
     {
       "id": "rakuten-pointclub",
@@ -1710,7 +1710,8 @@
           "role": "membership",
           "appStoreID": "844024333",
           "fallbackURL": "https://www.chateraise.co.jp/",
-          "hint": "店頭でカシポのバーコードを提示"
+          "hint": "店頭でカシポのバーコードを提示",
+          "urlScheme": "chateraisejpapp://"
         }
       ],
       "appStoreID": "844024333",
@@ -1736,7 +1737,8 @@
           "systemTag": "v",
           "appStoreID": "6759275429",
           "fallbackURL": "https://www.the-fuji.com/",
-          "hint": "モバイルVカードを提示"
+          "hint": "モバイルVカードを提示",
+          "urlScheme": "fujicitio-app://"
         }
       ],
       "appStoreID": "6759275429",
