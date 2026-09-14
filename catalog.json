@@ -1,5 +1,5 @@
 {
-  "version": 30,
+  "version": 31,
   "presets": [
     {
       "id": "rakuten-pointclub",
@@ -2836,7 +2836,7 @@
         "fuji"
       ],
       "mapQueries": [
-        "Fuji",
+        "富士シティオ",
         "デリド"
       ],
       "acceptedPointSystems": [
