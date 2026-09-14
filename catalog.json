@@ -1,5 +1,5 @@
 {
-  "version": 29,
+  "version": 30,
   "presets": [
     {
       "id": "rakuten-pointclub",
@@ -1745,9 +1745,9 @@
         "fuji",
         "フジ",
         "ふじ",
-        "フジグラン",
+        "富士シティオ",
         "デリド",
-        "パルティ・フジ"
+        "フレア"
       ],
       "storeGenre": "スーパー・食品"
     }
@@ -2826,16 +2826,18 @@
       "id": "fuji",
       "chainName": "フジ",
       "aliases": [
-        "フジグラン",
-        "Fuji",
-        "パルティ・フジ"
+        "富士シティオ",
+        "フレア",
+        "デリド",
+        "プチマルシェ",
+        "Fuji"
       ],
       "storeAppPresetIDs": [
         "fuji"
       ],
       "mapQueries": [
         "Fuji",
-        "フジグラン"
+        "デリド"
       ],
       "acceptedPointSystems": [
         "v"
