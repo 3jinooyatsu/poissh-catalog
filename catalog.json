@@ -1,5 +1,5 @@
 {
-  "version": 28,
+  "version": 29,
   "presets": [
     {
       "id": "rakuten-pointclub",
@@ -1698,6 +1698,58 @@
         "クリーニング"
       ],
       "storeGenre": "その他"
+    },
+    {
+      "id": "chateraise",
+      "name": "シャトレーゼ",
+      "category": "store",
+      "colorHex": "6F3C1B",
+      "hostAppID": "jp.co.chateraise.ctsapp001",
+      "capabilities": [
+        {
+          "role": "membership",
+          "appStoreID": "844024333",
+          "fallbackURL": "https://www.chateraise.co.jp/",
+          "hint": "店頭でカシポのバーコードを提示"
+        }
+      ],
+      "appStoreID": "844024333",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/97/7e/cf/977ecf6f-6633-2f59-506a-5ca67494b7d9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "chateraise",
+        "シャトレーゼ",
+        "しゃとれーぜ",
+        "カシポ",
+        "YATSUDOKI"
+      ],
+      "storeGenre": "スーパー・食品"
+    },
+    {
+      "id": "fuji",
+      "name": "フジ",
+      "category": "store",
+      "colorHex": "036340",
+      "hostAppID": "jp.fastmedia.7B56F07F",
+      "capabilities": [
+        {
+          "role": "point",
+          "systemTag": "v",
+          "appStoreID": "6759275429",
+          "fallbackURL": "https://www.the-fuji.com/",
+          "hint": "モバイルVカードを提示"
+        }
+      ],
+      "appStoreID": "6759275429",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/08/16/3e/08163e7e-fb93-27a9-7c24-f7923468dad9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "searchTerms": [
+        "fuji",
+        "フジ",
+        "ふじ",
+        "フジグラン",
+        "デリド",
+        "パルティ・フジ"
+      ],
+      "storeGenre": "スーパー・食品"
     }
   ],
   "storeTemplates": [
@@ -2751,6 +2803,43 @@
         "pony-cleaning"
       ],
       "acceptedPointSystems": [],
+      "pointsExclusive": true
+    },
+    {
+      "id": "chateraise",
+      "chainName": "シャトレーゼ",
+      "aliases": [
+        "YATSUDOKI",
+        "chateraise"
+      ],
+      "storeAppPresetIDs": [
+        "chateraise"
+      ],
+      "mapQueries": [
+        "シャトレーゼ",
+        "YATSUDOKI"
+      ],
+      "acceptedPointSystems": [],
+      "pointsExclusive": true
+    },
+    {
+      "id": "fuji",
+      "chainName": "フジ",
+      "aliases": [
+        "フジグラン",
+        "Fuji",
+        "パルティ・フジ"
+      ],
+      "storeAppPresetIDs": [
+        "fuji"
+      ],
+      "mapQueries": [
+        "Fuji",
+        "フジグラン"
+      ],
+      "acceptedPointSystems": [
+        "v"
+      ],
       "pointsExclusive": true
     }
   ],
