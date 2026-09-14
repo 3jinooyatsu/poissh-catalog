@@ -1,5 +1,5 @@
 {
-  "version": 31,
+  "version": 33,
   "presets": [
     {
       "id": "rakuten-pointclub",
@@ -2566,7 +2566,11 @@
       "acceptedPointSystems": [],
       "pointsExclusive": true,
       "payments": [],
-      "bestCombos": []
+      "bestCombos": [],
+      "mapQueries": [
+        "イトーヨーカドー",
+        "ヨーカドー"
+      ]
     },
     {
       "id": "biccamera",
@@ -2767,7 +2771,10 @@
         "nojima"
       ],
       "acceptedPointSystems": [],
-      "pointsExclusive": true
+      "pointsExclusive": true,
+      "mapQueries": [
+        "nojima"
+      ]
     },
     {
       "id": "gyukaku",
