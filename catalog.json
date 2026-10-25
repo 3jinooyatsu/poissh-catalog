@@ -1,5 +1,5 @@
 {
-  "version": 34,
+  "version": 35,
   "presets": [
     {
       "id": "rakuten-pointclub",
@@ -1881,6 +1881,9 @@
         "711",
         "7-11"
       ],
+      "excludes": [
+        "セブン銀行"
+      ],
       "acceptedPointSystems": [
         "d"
       ],
@@ -1980,6 +1983,13 @@
         "matsuya",
         "まつや",
         "松屋フーズ"
+      ],
+      "excludes": [
+        "松屋銀座",
+        "ぎんざ松屋",
+        "松屋浅草",
+        "MATSUYA GINZA",
+        "松屋PREMIUM"
       ],
       "acceptedPointSystems": [
         "rakuten",
@@ -2126,6 +2136,9 @@
         "モス",
         "mos",
         "もすばーがー"
+      ],
+      "excludes": [
+        "コスモス"
       ],
       "acceptedPointSystems": [
         "d"
@@ -2467,6 +2480,10 @@
         "McDonald's",
         "マック",
         "マクド"
+      ],
+      "excludes": [
+        "マックスバリュ",
+        "マックハウス"
       ],
       "storeAppPresetIDs": [
         "mcdonalds"
